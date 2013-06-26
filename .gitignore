@@ -5,6 +5,8 @@ Temp/
 Obj/
 UnityGenerated/
 Library/
+Photon Unity Networking/
+PlayMaker/
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
