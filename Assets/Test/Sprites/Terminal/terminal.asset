@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: terminal
+  wrapMode: 2
+  stopAction: 0
+  length: 6.46666622
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: fadafa91a8a72774f94dd8b354c98aa8
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 1
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 8c807655cdb92dc43a8a9d5d32aeac98
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 4
+  - textureGUID: d85bf88b7752ace4f96a7a4b9ec0f9bd
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 5
+  - textureGUID: fa7e8f375823e474092b1b12014b53e9
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 6
+  - textureGUID: 09108478aead01f4bacfc3a03060bd46
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 7
+  - textureGUID: 9e724619af3e9124c895de17c40def01
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 8
+  - textureGUID: a00d0dad9e2d90242a6072c6b6d9b146
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 9
+  - textureGUID: ec4f2d8f4eb6e9f45a61716b713f5a04
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 10
+  - textureGUID: 6057dec32fece2e4f8cabc635c5e0fd4
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 0
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .850000024
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  - textureGUID: 2ed0966b0cd10cd4ea2416a60c60b640
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 3
+  - textureGUID: 903b251562b8edf4fafe622a2d1bdb5d
+    length: 1.45000005
+    atlas: {fileID: 11400000, guid: 9b375125b9b4baa4cb4c1bda1c478228, type: 2}
+    index: 2
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: .10000059
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0

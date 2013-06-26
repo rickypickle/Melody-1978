@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: East
+  elements:
+  - name: East_01
+    originalWidth: 53
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .66015625
+      width: .0517578125
+      height: .33984375
+    rotated: 0
+  - name: East_02
+    originalWidth: 128
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .711914062
+      y: .708984375
+      width: .125
+      height: .291015625
+    rotated: 0
+  - name: East_03
+    originalWidth: 85
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 85
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .837890625
+      y: .708984375
+      width: .0830078125
+      height: .291015625
+    rotated: 0
+  - name: East_04
+    originalWidth: 82
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .24609375
+      y: .376953125
+      width: .080078125
+      height: .28125
+    rotated: 0
+  - name: East_05
+    originalWidth: 93
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 93
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .327148438
+      y: .376953125
+      width: .0908203125
+      height: .28125
+    rotated: 0
+  - name: East_06
+    originalWidth: 112
+    originalHeight: 146
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 112
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .373046875
+      width: .109375
+      height: .28515625
+    rotated: 0
+  - name: East_07
+    originalWidth: 138
+    originalHeight: 146
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 138
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: .110351562
+      y: .373046875
+      width: .134765625
+      height: .28515625
+    rotated: 0
+  - name: East_08
+    originalWidth: 132
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 132
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .383789062
+      y: .697265625
+      width: .12890625
+      height: .302734375
+    rotated: 0
+  - name: East_09
+    originalWidth: 115
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 115
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .598632812
+      y: .701171875
+      width: .112304688
+      height: .298828125
+    rotated: 0
+  - name: East_10
+    originalWidth: 86
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 86
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .513671875
+      y: .697265625
+      width: .083984375
+      height: .302734375
+    rotated: 0
+  - name: East_11
+    originalWidth: 103
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 103
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .165039062
+      y: .6953125
+      width: .100585938
+      height: .3046875
+    rotated: 0
+  - name: East_12
+    originalWidth: 114
+    originalHeight: 161
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .052734375
+      y: .685546875
+      width: .111328125
+      height: .314453125
+    rotated: 0
+  - name: East_13
+    originalWidth: 119
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 119
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .266601562
+      y: .697265625
+      width: .116210938
+      height: .302734375
+    rotated: 0
+  material: {fileID: 2100000, guid: d472b4701d736ff488e0f909aef05a9b, type: 2}
+  texture: {fileID: 2800000, guid: 1f078d5099594424dae34a2f84c58fc6, type: 3}

@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: GunAim
+  elements:
+  - name: completeSequenceArm1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 96
+      y: 22
+      width: 56
+      height: 192
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .625
+      width: .0546875
+      height: .375
+    rotated: 0
+  - name: completeSequenceArm10
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 102
+      y: 52
+      width: 68
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .341796875
+      y: .291015625
+      width: .06640625
+      height: .33203125
+    rotated: 0
+  - name: completeSequenceArm11
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 109
+      y: 51
+      width: 86
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .104492188
+      y: .28515625
+      width: .083984375
+      height: .337890625
+    rotated: 0
+  - name: completeSequenceArm12
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 108
+      y: 48
+      width: 106
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .858398438
+      y: .658203125
+      width: .103515625
+      height: .341796875
+    rotated: 0
+  - name: completeSequenceArm13
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 104
+      y: 47
+      width: 121
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .739257812
+      y: .654296875
+      width: .118164062
+      height: .345703125
+    rotated: 0
+  - name: completeSequenceArm14
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 43
+      width: 124
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .498046875
+      y: .65234375
+      width: .12109375
+      height: .34765625
+    rotated: 0
+  - name: completeSequenceArm15
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 41
+      width: 98
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .3046875
+      y: .65234375
+      width: .095703125
+      height: .34765625
+    rotated: 0
+  - name: completeSequenceArm16
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 26
+      width: 64
+      height: 189
+    coords:
+      serializedVersion: 2
+      x: .119140625
+      y: .630859375
+      width: .0625
+      height: .369140625
+    rotated: 0
+  - name: completeSequenceArm2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 95
+      y: 26
+      width: 64
+      height: 189
+    coords:
+      serializedVersion: 2
+      x: .0556640625
+      y: .630859375
+      width: .0625
+      height: .369140625
+    rotated: 0
+  - name: completeSequenceArm3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 68
+      y: 41
+      width: 98
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .401367188
+      y: .65234375
+      width: .095703125
+      height: .34765625
+    rotated: 0
+  - name: completeSequenceArm4 - Copy
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 47
+      y: 43
+      width: 124
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .182617188
+      y: .65234375
+      width: .12109375
+      height: .34765625
+    rotated: 0
+  - name: completeSequenceArm5
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 31
+      y: 47
+      width: 121
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .620117188
+      y: .654296875
+      width: .118164062
+      height: .345703125
+    rotated: 0
+  - name: completeSequenceArm6
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 42
+      y: 48
+      width: 106
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .28125
+      width: .103515625
+      height: .341796875
+    rotated: 0
+  - name: completeSequenceArm7
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 61
+      y: 51
+      width: 86
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .189453125
+      y: .28515625
+      width: .083984375
+      height: .337890625
+    rotated: 0
+  - name: completeSequenceArm8
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 52
+      width: 68
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .274414062
+      y: .291015625
+      width: .06640625
+      height: .33203125
+    rotated: 0
+  - name: completeSequenceArm9
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 100
+      y: 58
+      width: 64
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .409179688
+      y: .30078125
+      width: .0625
+      height: .322265625
+    rotated: 0
+  material: {fileID: 2100000, guid: bcd3d92fb46e50b4ea92e4750bac2cad, type: 2}
+  texture: {fileID: 2800000, guid: 1b0565f38b1cf8642a0941675cb43b4c, type: 3}

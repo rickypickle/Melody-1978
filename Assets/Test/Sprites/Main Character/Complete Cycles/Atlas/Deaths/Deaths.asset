@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Deaths
+  elements:
+  - name: dyingCycle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 98
+      y: 41
+      width: 75
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .1484375
+      y: .642578125
+      width: .146484375
+      height: .357421875
+    rotated: 0
+  - name: dyingCycle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 83
+      y: 41
+      width: 75
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .642578125
+      width: .146484375
+      height: .357421875
+    rotated: 0
+  - name: dyingCycle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 48
+      width: 78
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .451171875
+      y: .650390625
+      width: .15234375
+      height: .349609375
+    rotated: 0
+  - name: dyingCycle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 87
+      y: 48
+      width: 78
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .296875
+      y: .650390625
+      width: .15234375
+      height: .349609375
+    rotated: 0
+  - name: dyingCycle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 82
+      y: 55
+      width: 90
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .783203125
+      y: .65625
+      width: .17578125
+      height: .34375
+    rotated: 0
+  - name: dyingCycle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 55
+      width: 90
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .60546875
+      y: .65625
+      width: .17578125
+      height: .34375
+    rotated: 0
+  - name: dyingCycle4
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 60
+      width: 68
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .134765625
+      y: .318359375
+      width: .1328125
+      height: .322265625
+    rotated: 0
+  - name: dyingCycle4
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 60
+      width: 68
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .318359375
+      width: .1328125
+      height: .322265625
+    rotated: 0
+  - name: dyingCycle5
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 101
+      y: 59
+      width: 69
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .40625
+      y: .32421875
+      width: .134765625
+      height: .31640625
+    rotated: 0
+  - name: dyingCycle5
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 59
+      width: 69
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .26953125
+      y: .32421875
+      width: .134765625
+      height: .31640625
+    rotated: 0
+  - name: dyingCycle6
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 100
+      y: 67
+      width: 78
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: .697265625
+      y: .328125
+      width: .15234375
+      height: .3125
+    rotated: 0
+  - name: dyingCycle6
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 67
+      width: 78
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: .54296875
+      y: .328125
+      width: .15234375
+      height: .3125
+    rotated: 0
+  - name: dyingCycle7
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 79
+      y: 79
+      width: 95
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: .1875
+      y: .03125
+      width: .185546875
+      height: .28515625
+    rotated: 0
+  - name: dyingCycle7
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 82
+      y: 79
+      width: 95
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .03125
+      width: .185546875
+      height: .28515625
+    rotated: 0
+  - name: dyingCycle8
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 81
+      y: 91
+      width: 89
+      height: 135
+    coords:
+      serializedVersion: 2
+      x: .55078125
+      y: .052734375
+      width: .173828125
+      height: .263671875
+    rotated: 0
+  - name: dyingCycle8
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 91
+      width: 89
+      height: 135
+    coords:
+      serializedVersion: 2
+      x: .375
+      y: .052734375
+      width: .173828125
+      height: .263671875
+    rotated: 0
+  material: {fileID: 2100000, guid: 129b0b28228c97f41b82e29d7ba8f01c, type: 2}
+  texture: {fileID: 2800000, guid: c6591e7b59d501844b2ed64dba79cf04, type: 3}

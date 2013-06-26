@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: GunWest
+  wrapMode: 1
+  stopAction: 0
+  length: .5
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 163f61d6ee08b604a8a14a5daf5e21a0
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 934c33eb840142c408d5f16441890d5e, type: 2}
+    index: 1
+  - textureGUID: a3c0702951ed8334fbe676cf4544b6a2
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 934c33eb840142c408d5f16441890d5e, type: 2}
+    index: 3
+  - textureGUID: 6385cf6df58adf048ac755fe4a5d48da
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 934c33eb840142c408d5f16441890d5e, type: 2}
+    index: 5
+  eventInfos: []
+  speed: 2
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 2
+  editorNeedRebuild: 0

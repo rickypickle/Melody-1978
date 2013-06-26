@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: 42dc745bf5ca92742b00c2bc605a8b41
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Stone_Pack1_Stone_1:Stone_1_LOD1
+    100004: Stone_Pack1_Stone_2:Stone_2_LOD1
+    100006: Stone_Pack1_Stone_2:Stone_2_LOD2
+    100008: Stone_Pack1_Stone_3:Stone_3_LOD1
+    100010: Stone_Pack1_Stone_3:Stone_3_LOD2
+    100012: Stone_Pack1_Stone_4:Stone_4_LOD1
+    100014: Stone_Pack1_Stone_4:Stone_4_LOD2
+    100016: Stone_Pack1_Stone_5:Stone_5_LOD2
+    400000: //RootNode
+    400002: Stone_Pack1_Stone_1:Stone_1_LOD1
+    400004: Stone_Pack1_Stone_2:Stone_2_LOD1
+    400006: Stone_Pack1_Stone_2:Stone_2_LOD2
+    400008: Stone_Pack1_Stone_3:Stone_3_LOD1
+    400010: Stone_Pack1_Stone_3:Stone_3_LOD2
+    400012: Stone_Pack1_Stone_4:Stone_4_LOD1
+    400014: Stone_Pack1_Stone_4:Stone_4_LOD2
+    400016: Stone_Pack1_Stone_5:Stone_5_LOD2
+    2300000: Stone_Pack1_Stone_1:Stone_1_LOD1
+    2300002: Stone_Pack1_Stone_2:Stone_2_LOD1
+    2300004: Stone_Pack1_Stone_2:Stone_2_LOD2
+    2300006: Stone_Pack1_Stone_3:Stone_3_LOD1
+    2300008: Stone_Pack1_Stone_3:Stone_3_LOD2
+    2300010: Stone_Pack1_Stone_4:Stone_4_LOD1
+    2300012: Stone_Pack1_Stone_4:Stone_4_LOD2
+    2300014: Stone_Pack1_Stone_5:Stone_5_LOD2
+    3300000: Stone_Pack1_Stone_1:Stone_1_LOD1
+    3300002: Stone_Pack1_Stone_2:Stone_2_LOD1
+    3300004: Stone_Pack1_Stone_2:Stone_2_LOD2
+    3300006: Stone_Pack1_Stone_3:Stone_3_LOD1
+    3300008: Stone_Pack1_Stone_3:Stone_3_LOD2
+    3300010: Stone_Pack1_Stone_4:Stone_4_LOD1
+    3300012: Stone_Pack1_Stone_4:Stone_4_LOD2
+    3300014: Stone_Pack1_Stone_5:Stone_5_LOD2
+    4300000: Stone_Pack1_Stone_1:Stone_1_LOD1
+    4300002: Stone_Pack1_Stone_2:Stone_2_LOD1
+    4300004: Stone_Pack1_Stone_2:Stone_2_LOD2
+    4300006: Stone_Pack1_Stone_3:Stone_3_LOD1
+    4300008: Stone_Pack1_Stone_3:Stone_3_LOD2
+    4300010: Stone_Pack1_Stone_4:Stone_4_LOD1
+    4300012: Stone_Pack1_Stone_4:Stone_4_LOD2
+    4300014: Stone_Pack1_Stone_5:Stone_5_LOD2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

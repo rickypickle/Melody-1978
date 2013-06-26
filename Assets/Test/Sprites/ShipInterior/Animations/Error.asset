@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Error
+  elements:
+  - name: ErrorFlash
+    originalWidth: 28
+    originalHeight: 20
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 28
+      height: 20
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .6875
+      width: .4375
+      height: .3125
+    rotated: 0
+  - name: ErrorFlashBlank
+    originalWidth: 28
+    originalHeight: 20
+    trimRect:
+      serializedVersion: 2
+      x: 24
+      y: 1
+      width: 1
+      height: 1
+    coords:
+      serializedVersion: 2
+      x: .453125
+      y: .984375
+      width: .015625
+      height: .015625
+    rotated: 0
+  material: {fileID: 2100000, guid: 1c33a6ec31bb2e6488fcdf8783fb69ed, type: 2}
+  texture: {fileID: 2800000, guid: a10be79a5af21ce41af3a385e8edb12d, type: 3}

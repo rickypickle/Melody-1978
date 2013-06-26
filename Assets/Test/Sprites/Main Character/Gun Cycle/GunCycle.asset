@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: GunCycle
+  elements:
+  - name: 00_GUN
+    originalWidth: 57
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 57
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .639648438
+      y: .30078125
+      width: .0556640625
+      height: .322265625
+    rotated: 0
+  - name: 01
+    originalWidth: 118
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 56
+      y: 0
+      width: 62
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .658203125
+      y: .66015625
+      width: .060546875
+      height: .33984375
+    rotated: 0
+  - name: 01_GUN
+    originalWidth: 86
+    originalHeight: 167
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 86
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .140625
+      y: .296875
+      width: .083984375
+      height: .326171875
+    rotated: 0
+  - name: 02
+    originalWidth: 118
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 19
+      y: 0
+      width: 99
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .266601562
+      y: .66015625
+      width: .0966796875
+      height: .33984375
+    rotated: 0
+  - name: 02_GUN
+    originalWidth: 103
+    originalHeight: 172
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 103
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .788085938
+      y: .6640625
+      width: .100585938
+      height: .3359375
+    rotated: 0
+  - name: 03
+    originalWidth: 118
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .541992188
+      y: .66015625
+      width: .115234375
+      height: .33984375
+    rotated: 0
+  - name: 03_GUN
+    originalWidth: 118
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .42578125
+      y: .66015625
+      width: .115234375
+      height: .33984375
+    rotated: 0
+  - name: 04_GUN
+    originalWidth: 104
+    originalHeight: 169
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 104
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .889648438
+      y: .669921875
+      width: .1015625
+      height: .330078125
+    rotated: 0
+  - name: 05_GUN
+    originalWidth: 56
+    originalHeight: 192
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 56
+      height: 192
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .625
+      width: .0546875
+      height: .375
+    rotated: 0
+  - name: 06_GUN
+    originalWidth: 58
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 58
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .35546875
+      y: .298828125
+      width: .056640625
+      height: .32421875
+    rotated: 0
+  - name: 07_GUN
+    originalWidth: 78
+    originalHeight: 167
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 78
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .278320312
+      y: .296875
+      width: .076171875
+      height: .326171875
+    rotated: 0
+  - name: 08_GUN
+    originalWidth: 56
+    originalHeight: 181
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 56
+      height: 181
+    coords:
+      serializedVersion: 2
+      x: .11328125
+      y: .646484375
+      width: .0546875
+      height: .353515625
+    rotated: 0
+  - name: 09_GUN
+    originalWidth: 59
+    originalHeight: 169
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 59
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .29296875
+      width: .0576171875
+      height: .330078125
+    rotated: 0
+  - name: 10_GUN
+    originalWidth: 53
+    originalHeight: 167
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .225585938
+      y: .296875
+      width: .0517578125
+      height: .326171875
+    rotated: 0
+  - name: 11_GUN
+    originalWidth: 69
+    originalHeight: 172
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 69
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .719726562
+      y: .6640625
+      width: .0673828125
+      height: .3359375
+    rotated: 0
+  - name: 12_GUN
+    originalWidth: 79
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .413085938
+      y: .298828125
+      width: .0771484375
+      height: .32421875
+    rotated: 0
+  - name: 13_GUN
+    originalWidth: 86
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 86
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .491210938
+      y: .298828125
+      width: .083984375
+      height: .32421875
+    rotated: 0
+  - name: 14_GUN
+    originalWidth: 62
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 62
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .364257812
+      y: .66015625
+      width: .060546875
+      height: .33984375
+    rotated: 0
+  - name: 15_GUN
+    originalWidth: 64
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .576171875
+      y: .30078125
+      width: .0625
+      height: .322265625
+    rotated: 0
+  - name: 16_GUN
+    originalWidth: 83
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 83
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .05859375
+      y: .294921875
+      width: .0810546875
+      height: .328125
+    rotated: 0
+  - name: 17_GUN
+    originalWidth: 99
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 99
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .168945312
+      y: .66015625
+      width: .0966796875
+      height: .33984375
+    rotated: 0
+  - name: 18_GUN
+    originalWidth: 58
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 58
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .0556640625
+      y: .642578125
+      width: .056640625
+      height: .357421875
+    rotated: 0
+  material: {fileID: 2100000, guid: c0c9dc4975bf4a2488652d7959cb4c19, type: 2}
+  texture: {fileID: 2800000, guid: 86bbd9a51d3e08c47a55e285906d0108, type: 3}

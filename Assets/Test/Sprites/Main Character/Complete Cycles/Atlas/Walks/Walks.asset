@@ -1,0 +1,1551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Walks
+  elements:
+  - name: WalkCycleComplePainted1
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 19
+      width: 76
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .451660156
+      y: .83203125
+      width: .037109375
+      height: .16796875
+    rotated: 0
+  - name: WalkCycleComplePainted10
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 20
+      width: 76
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .1953125
+      y: .828125
+      width: .037109375
+      height: .171875
+    rotated: 0
+  - name: WalkCycleComplePainted11
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 20
+      width: 76
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .357421875
+      y: .668945312
+      width: .037109375
+      height: .158203125
+    rotated: 0
+  - name: WalkCycleComplePainted12
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 19
+      width: 82
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .651367188
+      y: .8359375
+      width: .0400390625
+      height: .1640625
+    rotated: 0
+  - name: WalkCycleComplePainted2
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 20
+      width: 76
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .304199219
+      y: .831054688
+      width: .037109375
+      height: .168945312
+    rotated: 0
+  - name: WalkCycleComplePainted3
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 20
+      width: 75
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .828125
+      width: .0366210938
+      height: .171875
+    rotated: 0
+  - name: WalkCycleComplePainted4
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 20
+      width: 76
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .0786132812
+      y: .828125
+      width: .037109375
+      height: .171875
+    rotated: 0
+  - name: WalkCycleComplePainted5
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 19
+      width: 76
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .319824219
+      y: .668945312
+      width: .037109375
+      height: .158203125
+    rotated: 0
+  - name: WalkCycleComplePainted6
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 19
+      width: 82
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .748535156
+      y: .8359375
+      width: .0400390625
+      height: .1640625
+    rotated: 0
+  - name: WalkCycleComplePainted7
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 19
+      width: 75
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .414550781
+      y: .83203125
+      width: .0366210938
+      height: .16796875
+    rotated: 0
+  - name: WalkCycleComplePainted8
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 20
+      width: 76
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .341796875
+      y: .831054688
+      width: .037109375
+      height: .168945312
+    rotated: 0
+  - name: WalkCycleComplePainted9
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 20
+      width: 76
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .157714844
+      y: .828125
+      width: .037109375
+      height: .171875
+    rotated: 0
+  - name: WalkDownFull Cycle1
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 2
+      width: 66
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .703613281
+      y: .510742188
+      width: .0322265625
+      height: .153320312
+    rotated: 0
+  - name: WalkDownFull Cycle10
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 2
+      width: 64
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .600097656
+      y: .669921875
+      width: .03125
+      height: .157226562
+    rotated: 0
+  - name: WalkDownFull Cycle11
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 2
+      width: 66
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .592285156
+      y: .510742188
+      width: .0322265625
+      height: .153320312
+    rotated: 0
+  - name: WalkDownFull Cycle12
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 3
+      width: 66
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .8984375
+      y: .51171875
+      width: .0322265625
+      height: .15234375
+    rotated: 0
+  - name: WalkDownFull Cycle2
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 2
+      width: 67
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .865234375
+      y: .51171875
+      width: .0327148438
+      height: .15234375
+    rotated: 0
+  - name: WalkDownFull Cycle3
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 1
+      width: 65
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .371582031
+      y: .509765625
+      width: .0317382812
+      height: .154296875
+    rotated: 0
+  - name: WalkDownFull Cycle4
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 1
+      width: 65
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .395019531
+      y: .668945312
+      width: .0317382812
+      height: .158203125
+    rotated: 0
+  - name: WalkDownFull Cycle5
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 2
+      width: 67
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .736328125
+      y: .510742188
+      width: .0327148438
+      height: .153320312
+    rotated: 0
+  - name: WalkDownFull Cycle6
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 3
+      width: 66
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .931152344
+      y: .51171875
+      width: .0322265625
+      height: .15234375
+    rotated: 0
+  - name: WalkDownFull Cycle7
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 2
+      width: 66
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .670898438
+      y: .510742188
+      width: .0322265625
+      height: .153320312
+    rotated: 0
+  - name: WalkDownFull Cycle8
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 2
+      width: 67
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .83203125
+      y: .51171875
+      width: .0327148438
+      height: .15234375
+    rotated: 0
+  - name: WalkDownFull Cycle9
+    originalWidth: 163
+    originalHeight: 163
+    trimRect:
+      serializedVersion: 2
+      x: 50
+      y: 1
+      width: 66
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .439453125
+      y: .509765625
+      width: .0322265625
+      height: .154296875
+    rotated: 0
+  - name: WalkLeft (1)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 79
+      y: 29
+      width: 60
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .237792969
+      y: .508789062
+      width: .029296875
+      height: .155273438
+    rotated: 0
+  - name: WalkLeft (10)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 63
+      y: 30
+      width: 104
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .0830078125
+      y: .35546875
+      width: .05078125
+      height: .151367188
+    rotated: 0
+  - name: WalkLeft (11)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 29
+      width: 88
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .314941406
+      y: .357421875
+      width: .04296875
+      height: .149414062
+    rotated: 0
+  - name: WalkLeft (12)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 79
+      y: 29
+      width: 78
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: .861328125
+      y: .670898438
+      width: .0380859375
+      height: .15625
+    rotated: 0
+  - name: WalkLeft (2)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 30
+      width: 58
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .631835938
+      y: .669921875
+      width: .0283203125
+      height: .157226562
+    rotated: 0
+  - name: WalkLeft (3)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 30
+      width: 75
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: .899902344
+      y: .670898438
+      width: .0366210938
+      height: .15625
+    rotated: 0
+  - name: WalkLeft (4)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 53
+      y: 30
+      width: 101
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .068359375
+      y: .508789062
+      width: .0493164062
+      height: .155273438
+    rotated: 0
+  - name: WalkLeft (5)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 58
+      y: 30
+      width: 105
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .809570312
+      y: .669921875
+      width: .0512695312
+      height: .157226562
+    rotated: 0
+  - name: WalkLeft (6)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 72
+      y: 29
+      width: 97
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .504394531
+      y: .669921875
+      width: .0473632812
+      height: .157226562
+    rotated: 0
+  - name: WalkLeft (7)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 61
+      y: 29
+      width: 78
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .16796875
+      y: .508789062
+      width: .0380859375
+      height: .155273438
+    rotated: 0
+  - name: WalkLeft (8)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 60
+      y: 29
+      width: 72
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .403808594
+      y: .509765625
+      width: .03515625
+      height: .154296875
+    rotated: 0
+  - name: WalkLeft (9)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 29
+      width: 106
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .262695312
+      y: .356445312
+      width: .0517578125
+      height: .150390625
+    rotated: 0
+  - name: WalkLeftDown (1)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 27
+      width: 64
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .963867188
+      y: .512695312
+      width: .03125
+      height: .151367188
+    rotated: 0
+  - name: WalkLeftDown (10)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 27
+      width: 84
+      height: 164
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .666992188
+      width: .041015625
+      height: .16015625
+    rotated: 0
+  - name: WalkLeftDown (11)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 70
+      y: 27
+      width: 75
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .509277344
+      y: .509765625
+      width: .0366210938
+      height: .154296875
+    rotated: 0
+  - name: WalkLeftDown (12)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 27
+      width: 63
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .80078125
+      y: .51171875
+      width: .0307617188
+      height: .15234375
+    rotated: 0
+  - name: WalkLeftDown (2)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 71
+      y: 27
+      width: 70
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .552246094
+      y: .359375
+      width: .0341796875
+      height: .147460938
+    rotated: 0
+  - name: WalkLeftDown (3)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 27
+      width: 67
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .358398438
+      y: .357421875
+      width: .0327148438
+      height: .149414062
+    rotated: 0
+  - name: WalkLeftDown (4)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 59
+      y: 26
+      width: 85
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .468261719
+      y: .357421875
+      width: .0415039062
+      height: .149414062
+    rotated: 0
+  - name: WalkLeftDown (5)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 62
+      y: 27
+      width: 93
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .546386719
+      y: .510742188
+      width: .0454101562
+      height: .153320312
+    rotated: 0
+  - name: WalkLeftDown (6)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 27
+      width: 77
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .186523438
+      y: .356445312
+      width: .0375976562
+      height: .150390625
+    rotated: 0
+  - name: WalkLeftDown (7)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 27
+      width: 63
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .037109375
+      y: .508789062
+      width: .0307617188
+      height: .155273438
+    rotated: 0
+  - name: WalkLeftDown (8)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 27
+      width: 62
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .665039062
+      width: .0302734375
+      height: .162109375
+    rotated: 0
+  - name: WalkLeftDown (9)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 27
+      width: 69
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .939941406
+      y: .837890625
+      width: .0336914062
+      height: .162109375
+    rotated: 0
+  - name: WalkLeftUp (1)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 68
+      y: 20
+      width: 84
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .037109375
+      y: .828125
+      width: .041015625
+      height: .171875
+    rotated: 0
+  - name: WalkLeftUp (10)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 22
+      width: 57
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .691894531
+      y: .8359375
+      width: .0278320312
+      height: .1640625
+    rotated: 0
+  - name: WalkLeftUp (11)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 83
+      y: 21
+      width: 61
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .557617188
+      y: .833984375
+      width: .0297851562
+      height: .166015625
+    rotated: 0
+  - name: WalkLeftUp (12)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 20
+      width: 71
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .489257812
+      y: .83203125
+      width: .0346679688
+      height: .16796875
+    rotated: 0
+  - name: WalkLeftUp (2)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 21
+      width: 72
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .268554688
+      y: .829101562
+      width: .03515625
+      height: .170898438
+    rotated: 0
+  - name: WalkLeftUp (3)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 21
+      width: 67
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .524414062
+      y: .833984375
+      width: .0327148438
+      height: .166015625
+    rotated: 0
+  - name: WalkLeftUp (4)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 81
+      y: 21
+      width: 61
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .21484375
+      y: .66796875
+      width: .0297851562
+      height: .159179688
+    rotated: 0
+  - name: WalkLeftUp (5)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 72
+      y: 21
+      width: 69
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .712402344
+      y: .669921875
+      width: .0336914062
+      height: .157226562
+    rotated: 0
+  - name: WalkLeftUp (6)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 21
+      width: 78
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .465820312
+      y: .668945312
+      width: .0380859375
+      height: .158203125
+    rotated: 0
+  - name: WalkLeftUp (7)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 60
+      y: 21
+      width: 90
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .170410156
+      y: .66796875
+      width: .0439453125
+      height: .159179688
+    rotated: 0
+  - name: WalkLeftUp (8)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 72
+      y: 21
+      width: 87
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .7890625
+      y: .836914062
+      width: .0424804688
+      height: .163085938
+    rotated: 0
+  - name: WalkLeftUp (9)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 21
+      width: 57
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .0307617188
+      y: .666015625
+      width: .0278320312
+      height: .161132812
+    rotated: 0
+  - name: WalkRight (1)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 29
+      width: 60
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .306152344
+      y: .508789062
+      width: .029296875
+      height: .155273438
+    rotated: 0
+  - name: WalkRight (10)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 50
+      y: 30
+      width: 104
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .0317382812
+      y: .35546875
+      width: .05078125
+      height: .151367188
+    rotated: 0
+  - name: WalkRight (11)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 52
+      y: 29
+      width: 88
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .391601562
+      y: .357421875
+      width: .04296875
+      height: .149414062
+    rotated: 0
+  - name: WalkRight (12)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 60
+      y: 29
+      width: 78
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: .937011719
+      y: .670898438
+      width: .0380859375
+      height: .15625
+    rotated: 0
+  - name: WalkRight (2)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 30
+      width: 58
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .780761719
+      y: .669921875
+      width: .0283203125
+      height: .157226562
+    rotated: 0
+  - name: WalkRight (3)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 30
+      width: 75
+      height: 160
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .5078125
+      width: .0366210938
+      height: .15625
+    rotated: 0
+  - name: WalkRight (4)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 63
+      y: 30
+      width: 101
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .118164062
+      y: .508789062
+      width: .0493164062
+      height: .155273438
+    rotated: 0
+  - name: WalkRight (5)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 54
+      y: 30
+      width: 105
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .660644531
+      y: .669921875
+      width: .0512695312
+      height: .157226562
+    rotated: 0
+  - name: WalkRight (6)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 29
+      width: 97
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .552246094
+      y: .669921875
+      width: .0473632812
+      height: .157226562
+    rotated: 0
+  - name: WalkRight (7)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 29
+      width: 78
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .267578125
+      y: .508789062
+      width: .0380859375
+      height: .155273438
+    rotated: 0
+  - name: WalkRight (8)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 29
+      width: 72
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .3359375
+      y: .509765625
+      width: .03515625
+      height: .154296875
+    rotated: 0
+  - name: WalkRight (9)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 60
+      y: 29
+      width: 106
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .134277344
+      y: .356445312
+      width: .0517578125
+      height: .150390625
+    rotated: 0
+  - name: WalkRightDown (1)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 27
+      width: 64
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .35546875
+      width: .03125
+      height: .151367188
+    rotated: 0
+  - name: WalkRightDown (10)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 69
+      y: 27
+      width: 84
+      height: 164
+    coords:
+      serializedVersion: 2
+      x: .0874023438
+      y: .666992188
+      width: .041015625
+      height: .16015625
+    rotated: 0
+  - name: WalkRightDown (11)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 72
+      y: 27
+      width: 75
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .472167969
+      y: .509765625
+      width: .0366210938
+      height: .154296875
+    rotated: 0
+  - name: WalkRightDown (12)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 27
+      width: 63
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .76953125
+      y: .51171875
+      width: .0307617188
+      height: .15234375
+    rotated: 0
+  - name: WalkRightDown (2)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 27
+      width: 70
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .586914062
+      y: .359375
+      width: .0341796875
+      height: .147460938
+    rotated: 0
+  - name: WalkRightDown (3)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 27
+      width: 67
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .435058594
+      y: .357421875
+      width: .0327148438
+      height: .149414062
+    rotated: 0
+  - name: WalkRightDown (4)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 26
+      width: 85
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .510253906
+      y: .357421875
+      width: .0415039062
+      height: .149414062
+    rotated: 0
+  - name: WalkRightDown (5)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 62
+      y: 27
+      width: 93
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .625
+      y: .510742188
+      width: .0454101562
+      height: .153320312
+    rotated: 0
+  - name: WalkRightDown (6)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 65
+      y: 27
+      width: 77
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .224609375
+      y: .356445312
+      width: .0375976562
+      height: .150390625
+    rotated: 0
+  - name: WalkRightDown (7)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 27
+      width: 63
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .206542969
+      y: .508789062
+      width: .0307617188
+      height: .155273438
+    rotated: 0
+  - name: WalkRightDown (8)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 27
+      width: 62
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .875
+      y: .837890625
+      width: .0302734375
+      height: .162109375
+    rotated: 0
+  - name: WalkRightDown (9)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 72
+      y: 27
+      width: 69
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .905761719
+      y: .837890625
+      width: .0336914062
+      height: .162109375
+    rotated: 0
+  - name: WalkRightUp (1)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 65
+      y: 20
+      width: 84
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .116210938
+      y: .828125
+      width: .041015625
+      height: .171875
+    rotated: 0
+  - name: WalkRightUp (10)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 22
+      width: 57
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .720214844
+      y: .8359375
+      width: .0278320312
+      height: .1640625
+    rotated: 0
+  - name: WalkRightUp (11)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 21
+      width: 61
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .62109375
+      y: .833984375
+      width: .0297851562
+      height: .166015625
+    rotated: 0
+  - name: WalkRightUp (12)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 71
+      y: 20
+      width: 71
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .379394531
+      y: .83203125
+      width: .0346679688
+      height: .16796875
+    rotated: 0
+  - name: WalkRightUp (2)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 70
+      y: 21
+      width: 72
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .232910156
+      y: .829101562
+      width: .03515625
+      height: .170898438
+    rotated: 0
+  - name: WalkRightUp (3)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 21
+      width: 67
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .587890625
+      y: .833984375
+      width: .0327148438
+      height: .166015625
+    rotated: 0
+  - name: WalkRightUp (4)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 21
+      width: 61
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .289550781
+      y: .66796875
+      width: .0297851562
+      height: .159179688
+    rotated: 0
+  - name: WalkRightUp (5)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 21
+      width: 69
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .746582031
+      y: .669921875
+      width: .0336914062
+      height: .157226562
+    rotated: 0
+  - name: WalkRightUp (6)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 21
+      width: 78
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .427246094
+      y: .668945312
+      width: .0380859375
+      height: .158203125
+    rotated: 0
+  - name: WalkRightUp (7)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 67
+      y: 21
+      width: 90
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .245117188
+      y: .66796875
+      width: .0439453125
+      height: .159179688
+    rotated: 0
+  - name: WalkRightUp (8)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 58
+      y: 21
+      width: 87
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .83203125
+      y: .836914062
+      width: .0424804688
+      height: .163085938
+    rotated: 0
+  - name: WalkRightUp (9)
+    originalWidth: 217
+    originalHeight: 217
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 21
+      width: 57
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .0590820312
+      y: .666015625
+      width: .0278320312
+      height: .161132812
+    rotated: 0
+  material: {fileID: 2100000, guid: a957961611961f74982847220f203fde, type: 2}
+  texture: {fileID: 2800000, guid: 9934c3f21434c4140ab3dc063aaf4cc7, type: 3}

@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Character North
+  elements:
+  - name: 00_North
+    originalWidth: 67
+    originalHeight: 178
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 67
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .689453125
+      y: .3046875
+      width: .0654296875
+      height: .6953125
+    rotated: 0
+  - name: 01_North
+    originalWidth: 73
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 73
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .387695312
+      y: .28515625
+      width: .0712890625
+      height: .71484375
+    rotated: 0
+  - name: 02_North
+    originalWidth: 77
+    originalHeight: 191
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 191
+    coords:
+      serializedVersion: 2
+      x: .076171875
+      y: .25390625
+      width: .0751953125
+      height: .74609375
+    rotated: 0
+  - name: 03_North
+    originalWidth: 80
+    originalHeight: 188
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 188
+    coords:
+      serializedVersion: 2
+      x: .232421875
+      y: .265625
+      width: .078125
+      height: .734375
+    rotated: 0
+  - name: 04_North
+    originalWidth: 78
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 78
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .532226562
+      y: .28515625
+      width: .076171875
+      height: .71484375
+    rotated: 0
+  - name: 05_North
+    originalWidth: 81
+    originalHeight: 180
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 180
+    coords:
+      serializedVersion: 2
+      x: .609375
+      y: .296875
+      width: .0791015625
+      height: .703125
+    rotated: 0
+  - name: 06_North
+    originalWidth: 82
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .916992188
+      y: .35546875
+      width: .080078125
+      height: .64453125
+    rotated: 0
+  - name: 07_North
+    originalWidth: 73
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 73
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .459960938
+      y: .28515625
+      width: .0712890625
+      height: .71484375
+    rotated: 0
+  - name: 08_North
+    originalWidth: 77
+    originalHeight: 192
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 192
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .25
+      width: .0751953125
+      height: .75
+    rotated: 0
+  - name: 09_North
+    originalWidth: 81
+    originalHeight: 189
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 189
+    coords:
+      serializedVersion: 2
+      x: .15234375
+      y: .26171875
+      width: .0791015625
+      height: .73828125
+    rotated: 0
+  - name: 10_North
+    originalWidth: 77
+    originalHeight: 187
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 187
+    coords:
+      serializedVersion: 2
+      x: .311523438
+      y: .26953125
+      width: .0751953125
+      height: .73046875
+    rotated: 0
+  - name: 11_North
+    originalWidth: 81
+    originalHeight: 177
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .755859375
+      y: .30859375
+      width: .0791015625
+      height: .69140625
+    rotated: 0
+  - name: 12_North
+    originalWidth: 82
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .8359375
+      y: .3515625
+      width: .080078125
+      height: .6484375
+    rotated: 0
+  material: {fileID: 2100000, guid: 1640614e02e14b34cb3b22c41180f6d4, type: 2}
+  texture: {fileID: 2800000, guid: 278c4cb7a99c6b947aaf52171ff764c0, type: 3}

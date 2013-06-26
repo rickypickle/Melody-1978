@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mist
+  m_Shader: {fileID: 4800000, guid: 57b270a4270e3ab4f854368f7c884dd4, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: cd893aaa4785d2f47bcfd98a5b7e3ac0, type: 3}
+          m_Scale: {x: 7, y: 1}
+          m_Offset: {x: .733653307, y: .733653307}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _InvFade
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .350746274, g: .350746274, b: .350746274, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .0352192521, g: .0352192521, b: .0352192521, a: .157312661}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

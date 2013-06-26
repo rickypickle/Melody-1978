@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Gun_NW
+  wrapMode: 1
+  stopAction: 0
+  length: .5
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: f22c1bc8019001044a62324f2f6a64a0
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
+    index: 25
+  - textureGUID: b5e60ee2dbf570c4b919f9e6ab87ec55
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
+    index: 26
+  - textureGUID: 95e470f01b2924842a36393d9dba7f6a
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
+    index: 14
+  eventInfos: []
+  speed: 2
+  editorPreviewSize: 256
+  editorScale: 1
+  editorOffset: 0
+  editorSpeed: 2
+  editorNeedRebuild: 0

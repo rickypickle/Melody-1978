@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: eastIdle
+  wrapMode: 2
+  stopAction: 0
+  length: 2.20000005
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: 1f22a2ca80ac687479632f89237a39b1
+    length: 1.01666677
+    atlas: {fileID: 11400000, guid: 782e648bf63031843b708fde7e7b92b5, type: 2}
+    index: 15
+  - textureGUID: f564b411290d24d47b2a0736134785e2
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 782e648bf63031843b708fde7e7b92b5, type: 2}
+    index: 16
+  - textureGUID: c677c5426bfbb7e448a0b98750ce9cc6
+    length: .850000024
+    atlas: {fileID: 11400000, guid: 782e648bf63031843b708fde7e7b92b5, type: 2}
+    index: 17
+  - textureGUID: f564b411290d24d47b2a0736134785e2
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 782e648bf63031843b708fde7e7b92b5, type: 2}
+    index: 16
+  eventInfos: []
+  speed: 1
+  editorPreviewSize: 256
+  editorScale: .10000059
+  editorOffset: 0
+  editorSpeed: 1
+  editorNeedRebuild: 0

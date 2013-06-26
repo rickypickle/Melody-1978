@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: walksouthwest
+  wrapMode: 2
+  stopAction: 0
+  length: 1.99999976
+  sampleRate_: 60
+  frameInfos:
+  - textureGUID: f0fcf2f8c661b614298978b1eace9b83
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 36
+  - textureGUID: c480c51bae0e0274e92533895692c0bb
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 40
+  - textureGUID: 8b51589c7ce87114fb567756a4eb3383
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 41
+  - textureGUID: 2b859a1329e291144b3a0dae5d90218d
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 42
+  - textureGUID: d282d3deff70dc743bb036f55c384bf6
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 43
+  - textureGUID: 719c73c762de78249bed2e391c03a936
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 44
+  - textureGUID: b2b586afbecc9f147920098505b40bd4
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 45
+  - textureGUID: 0ba08f1485be34341889ceaad5ab3ffe
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 46
+  - textureGUID: 0ec3b5f0744ca274d8289a0c6d5d67aa
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 47
+  - textureGUID: 023dad4da4621ed46917317325353bef
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 37
+  - textureGUID: 0a9c6436772b4cd48b574bd2270704cc
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 38
+  - textureGUID: dc684afb33978da4c86a4d615729ebbb
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 5b24c9e178e4fab449235a7eb5960d69, type: 2}
+    index: 39
+  eventInfos: []
+  speed: 2
+  editorPreviewSize: 184
+  editorScale: .265000582
+  editorOffset: 0
+  editorSpeed: 2
+  editorNeedRebuild: 0

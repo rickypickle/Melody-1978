@@ -1,0 +1,1551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Run
+  elements:
+  - name: Run Left Down (1)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 70
+      y: 14
+      width: 61
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .799804688
+      y: .4921875
+      width: .0297851562
+      height: .15234375
+    rotated: 0
+  - name: Run Left Down (10)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 16
+      width: 108
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .221679688
+      y: .489257812
+      width: .052734375
+      height: .155273438
+    rotated: 0
+  - name: Run Left Down (11)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 13
+      width: 99
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .508300781
+      y: .653320312
+      width: .0483398438
+      height: .159179688
+    rotated: 0
+  - name: Run Left Down (12)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 63
+      y: 14
+      width: 73
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .754394531
+      y: .654296875
+      width: .0356445312
+      height: .158203125
+    rotated: 0
+  - name: Run Left Down (2)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 70
+      y: 17
+      width: 63
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .885742188
+      y: .342773438
+      width: .0307617188
+      height: .145507812
+    rotated: 0
+  - name: Run Left Down (3)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 69
+      y: 19
+      width: 88
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .39453125
+      y: .197265625
+      width: .04296875
+      height: .138671875
+    rotated: 0
+  - name: Run Left Down (4)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 46
+      y: 17
+      width: 115
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .122070312
+      y: .489257812
+      width: .0561523438
+      height: .155273438
+    rotated: 0
+  - name: Run Left Down (5)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 59
+      y: 22
+      width: 93
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .683105469
+      y: .341796875
+      width: .0454101562
+      height: .146484375
+    rotated: 0
+  - name: Run Left Down (6)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 22
+      width: 79
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .272949219
+      y: .192382812
+      width: .0385742188
+      height: .143554688
+    rotated: 0
+  - name: Run Left Down (7)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 62
+      y: 19
+      width: 73
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .916992188
+      y: .342773438
+      width: .0356445312
+      height: .145507812
+    rotated: 0
+  - name: Run Left Down (8)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 19
+      width: 90
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .412597656
+      y: .341796875
+      width: .0439453125
+      height: .146484375
+    rotated: 0
+  - name: Run Left Down (9)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 18
+      width: 93
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .830078125
+      y: .493164062
+      width: .0454101562
+      height: .151367188
+    rotated: 0
+  - name: Run Right (1)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 60
+      width: 75
+      height: 148
+    coords:
+      serializedVersion: 2
+      x: .0649414062
+      y: .19140625
+      width: .0366210938
+      height: .14453125
+    rotated: 0
+  - name: Run Right (10)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 58
+      y: 53
+      width: 120
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .610839844
+      y: .491210938
+      width: .05859375
+      height: .153320312
+    rotated: 0
+  - name: Run Right (11)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 47
+      y: 58
+      width: 132
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .190429688
+      width: .064453125
+      height: .145507812
+    rotated: 0
+  - name: Run Right (12)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 56
+      width: 87
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .502929688
+      y: .341796875
+      width: .0424804688
+      height: .146484375
+    rotated: 0
+  - name: Run Right (2)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 57
+      width: 94
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .932617188
+      y: .493164062
+      width: .0458984375
+      height: .151367188
+    rotated: 0
+  - name: Run Right (3)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 55
+      y: 58
+      width: 113
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .627441406
+      y: .341796875
+      width: .0551757812
+      height: .146484375
+    rotated: 0
+  - name: Run Right (4)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 44
+      y: 60
+      width: 136
+      height: 148
+    coords:
+      serializedVersion: 2
+      x: .102050781
+      y: .19140625
+      width: .06640625
+      height: .14453125
+    rotated: 0
+  - name: Run Right (5)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 41
+      y: 59
+      width: 133
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .891113281
+      y: .657226562
+      width: .0649414062
+      height: .155273438
+    rotated: 0
+  - name: Run Right (6)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 62
+      width: 115
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .170898438
+      y: .336914062
+      width: .0561523438
+      height: .151367188
+    rotated: 0
+  - name: Run Right (7)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 80
+      y: 60
+      width: 87
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .956542969
+      y: .657226562
+      width: .0424804688
+      height: .155273438
+    rotated: 0
+  - name: Run Right (8)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 69
+      y: 58
+      width: 103
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .500976562
+      y: .490234375
+      width: .0502929688
+      height: .154296875
+    rotated: 0
+  - name: Run Right (9)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 57
+      y: 54
+      width: 114
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .662109375
+      y: .653320312
+      width: .0556640625
+      height: .159179688
+    rotated: 0
+  - name: Run Right Down (1)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 68
+      y: 14
+      width: 61
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .76953125
+      y: .4921875
+      width: .0297851562
+      height: .15234375
+    rotated: 0
+  - name: Run Right Down (10)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 42
+      y: 16
+      width: 108
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .396972656
+      y: .489257812
+      width: .052734375
+      height: .155273438
+    rotated: 0
+  - name: Run Right Down (11)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 49
+      y: 13
+      width: 99
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .557128906
+      y: .653320312
+      width: .0483398438
+      height: .159179688
+    rotated: 0
+  - name: Run Right Down (12)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 63
+      y: 14
+      width: 73
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .718261719
+      y: .654296875
+      width: .0356445312
+      height: .158203125
+    rotated: 0
+  - name: Run Right Down (2)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 66
+      y: 17
+      width: 63
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .953125
+      y: .342773438
+      width: .0307617188
+      height: .145507812
+    rotated: 0
+  - name: Run Right Down (3)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 42
+      y: 19
+      width: 88
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .351074219
+      y: .197265625
+      width: .04296875
+      height: .138671875
+    rotated: 0
+  - name: Run Right Down (4)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 38
+      y: 17
+      width: 115
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .274902344
+      y: .489257812
+      width: .0561523438
+      height: .155273438
+    rotated: 0
+  - name: Run Right Down (5)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 47
+      y: 22
+      width: 93
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .45703125
+      y: .341796875
+      width: .0454101562
+      height: .146484375
+    rotated: 0
+  - name: Run Right Down (6)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 56
+      y: 22
+      width: 79
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .312011719
+      y: .192382812
+      width: .0385742188
+      height: .143554688
+    rotated: 0
+  - name: Run Right Down (7)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 19
+      width: 73
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .784667969
+      y: .342773438
+      width: .0356445312
+      height: .145507812
+    rotated: 0
+  - name: Run Right Down (8)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 61
+      y: 19
+      width: 90
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .545898438
+      y: .341796875
+      width: .0439453125
+      height: .146484375
+    rotated: 0
+  - name: Run Right Down (9)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 55
+      y: 18
+      width: 93
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .0859375
+      y: .336914062
+      width: .0454101562
+      height: .151367188
+    rotated: 0
+  - name: RunDown 01
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 38
+      width: 80
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .645507812
+      width: .0390625
+      height: .166992188
+    rotated: 0
+  - name: RunDown 02
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 40
+      width: 80
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .174316406
+      y: .647460938
+      width: .0390625
+      height: .165039062
+    rotated: 0
+  - name: RunDown 03
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 41
+      width: 76
+      height: 164
+    coords:
+      serializedVersion: 2
+      x: .393066406
+      y: .65234375
+      width: .037109375
+      height: .16015625
+    rotated: 0
+  - name: RunDown 04
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 92
+      y: 42
+      width: 74
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .333007812
+      y: .340820312
+      width: .0361328125
+      height: .147460938
+    rotated: 0
+  - name: RunDown 05
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 93
+      y: 40
+      width: 72
+      height: 141
+    coords:
+      serializedVersion: 2
+      x: .437988281
+      y: .198242188
+      width: .03515625
+      height: .137695312
+    rotated: 0
+  - name: RunDown 06
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 38
+      width: 80
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .0463867188
+      y: .336914062
+      width: .0390625
+      height: .151367188
+    rotated: 0
+  - name: RunDown 07
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 87
+      y: 38
+      width: 81
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .0395507812
+      y: .645507812
+      width: .0395507812
+      height: .166992188
+    rotated: 0
+  - name: RunDown 08
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 40
+      width: 79
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .213867188
+      y: .647460938
+      width: .0385742188
+      height: .165039062
+    rotated: 0
+  - name: RunDown 09
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 93
+      y: 41
+      width: 76
+      height: 164
+    coords:
+      serializedVersion: 2
+      x: .430664062
+      y: .65234375
+      width: .037109375
+      height: .16015625
+    rotated: 0
+  - name: RunDown 10
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 42
+      width: 75
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .590332031
+      y: .341796875
+      width: .0366210938
+      height: .146484375
+    rotated: 0
+  - name: RunDown 11
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 40
+      width: 72
+      height: 141
+    coords:
+      serializedVersion: 2
+      x: .473632812
+      y: .198242188
+      width: .03515625
+      height: .137695312
+    rotated: 0
+  - name: RunDown 12
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 38
+      width: 79
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .131835938
+      y: .336914062
+      width: .0385742188
+      height: .151367188
+    rotated: 0
+  - name: RunLeft (1)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 60
+      width: 75
+      height: 148
+    coords:
+      serializedVersion: 2
+      x: .235839844
+      y: .19140625
+      width: .0366210938
+      height: .14453125
+    rotated: 0
+  - name: RunLeft (10)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 78
+      y: 53
+      width: 120
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .551757812
+      y: .491210938
+      width: .05859375
+      height: .153320312
+    rotated: 0
+  - name: RunLeft (11)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 77
+      y: 58
+      width: 132
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .820800781
+      y: .342773438
+      width: .064453125
+      height: .145507812
+    rotated: 0
+  - name: RunLeft (12)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 56
+      width: 87
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .369628906
+      y: .341796875
+      width: .0424804688
+      height: .146484375
+    rotated: 0
+  - name: RunLeft (2)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 87
+      y: 57
+      width: 94
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .336914062
+      width: .0458984375
+      height: .151367188
+    rotated: 0
+  - name: RunLeft (3)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 58
+      width: 113
+      height: 150
+    coords:
+      serializedVersion: 2
+      x: .729003906
+      y: .341796875
+      width: .0551757812
+      height: .146484375
+    rotated: 0
+  - name: RunLeft (4)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 76
+      y: 60
+      width: 136
+      height: 148
+    coords:
+      serializedVersion: 2
+      x: .168945312
+      y: .19140625
+      width: .06640625
+      height: .14453125
+    rotated: 0
+  - name: RunLeft (5)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 82
+      y: 59
+      width: 133
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .331542969
+      y: .489257812
+      width: .0649414062
+      height: .155273438
+    rotated: 0
+  - name: RunLeft (6)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 62
+      width: 115
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .875976562
+      y: .493164062
+      width: .0561523438
+      height: .151367188
+    rotated: 0
+  - name: RunLeft (7)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 60
+      width: 87
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .178710938
+      y: .489257812
+      width: .0424804688
+      height: .155273438
+    rotated: 0
+  - name: RunLeft (8)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 58
+      width: 103
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .450195312
+      y: .490234375
+      width: .0502929688
+      height: .154296875
+    rotated: 0
+  - name: RunLeft (9)
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 54
+      width: 114
+      height: 163
+    coords:
+      serializedVersion: 2
+      x: .605957031
+      y: .653320312
+      width: .0556640625
+      height: .159179688
+    rotated: 0
+  - name: RunLeftUp (1)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 13
+      width: 102
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .837890625
+      y: .831054688
+      width: .0498046875
+      height: .168945312
+    rotated: 0
+  - name: RunLeftUp (10)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 57
+      y: 15
+      width: 107
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .227539062
+      y: .340820312
+      width: .0522460938
+      height: .147460938
+    rotated: 0
+  - name: RunLeftUp (11)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 59
+      y: 13
+      width: 102
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .840820312
+      y: .655273438
+      width: .0498046875
+      height: .157226562
+    rotated: 0
+  - name: RunLeftUp (12)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 52
+      y: 12
+      width: 96
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .126953125
+      y: .647460938
+      width: .046875
+      height: .165039062
+    rotated: 0
+  - name: RunLeftUp (2)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 57
+      y: 11
+      width: 94
+      height: 180
+    coords:
+      serializedVersion: 2
+      x: .350097656
+      y: .82421875
+      width: .0458984375
+      height: .17578125
+    rotated: 0
+  - name: RunLeftUp (3)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 56
+      y: 16
+      width: 105
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .448242188
+      y: .825195312
+      width: .0512695312
+      height: .174804688
+    rotated: 0
+  - name: RunLeftUp (4)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 14
+      width: 111
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .732910156
+      y: .828125
+      width: .0541992188
+      height: .171875
+    rotated: 0
+  - name: RunLeftUp (5)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 56
+      y: 14
+      width: 101
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .669921875
+      y: .491210938
+      width: .0493164062
+      height: .153320312
+    rotated: 0
+  - name: RunLeftUp (6)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 60
+      y: 15
+      width: 96
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .935546875
+      y: .833007812
+      width: .046875
+      height: .166992188
+    rotated: 0
+  - name: RunLeftUp (7)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 69
+      y: 16
+      width: 100
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .589355469
+      y: .827148438
+      width: .048828125
+      height: .172851562
+    rotated: 0
+  - name: RunLeftUp (8)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 18
+      width: 101
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .302734375
+      y: .651367188
+      width: .0493164062
+      height: .161132812
+    rotated: 0
+  - name: RunLeftUp (9)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 17
+      width: 124
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .489257812
+      width: .060546875
+      height: .155273438
+    rotated: 0
+  - name: RunRightUp (1)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 46
+      y: 13
+      width: 102
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .787597656
+      y: .831054688
+      width: .0498046875
+      height: .168945312
+    rotated: 0
+  - name: RunRightUp (10)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 35
+      y: 15
+      width: 107
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .280273438
+      y: .340820312
+      width: .0522460938
+      height: .147460938
+    rotated: 0
+  - name: RunRightUp (11)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 38
+      y: 13
+      width: 102
+      height: 161
+    coords:
+      serializedVersion: 2
+      x: .790527344
+      y: .655273438
+      width: .0498046875
+      height: .157226562
+    rotated: 0
+  - name: RunRightUp (12)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 12
+      width: 96
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .0795898438
+      y: .647460938
+      width: .046875
+      height: .165039062
+    rotated: 0
+  - name: RunRightUp (2)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 48
+      y: 11
+      width: 94
+      height: 180
+    coords:
+      serializedVersion: 2
+      x: .303710938
+      y: .82421875
+      width: .0458984375
+      height: .17578125
+    rotated: 0
+  - name: RunRightUp (3)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 38
+      y: 16
+      width: 105
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .396484375
+      y: .825195312
+      width: .0512695312
+      height: .174804688
+    rotated: 0
+  - name: RunRightUp (4)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 37
+      y: 14
+      width: 111
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .678222656
+      y: .828125
+      width: .0541992188
+      height: .171875
+    rotated: 0
+  - name: RunRightUp (5)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 42
+      y: 14
+      width: 101
+      height: 157
+    coords:
+      serializedVersion: 2
+      x: .719726562
+      y: .491210938
+      width: .0493164062
+      height: .153320312
+    rotated: 0
+  - name: RunRightUp (6)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 43
+      y: 15
+      width: 96
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .888183594
+      y: .833007812
+      width: .046875
+      height: .166992188
+    rotated: 0
+  - name: RunRightUp (7)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 30
+      y: 16
+      width: 100
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .540039062
+      y: .827148438
+      width: .048828125
+      height: .172851562
+    rotated: 0
+  - name: RunRightUp (8)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 34
+      y: 18
+      width: 101
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .252929688
+      y: .651367188
+      width: .0493164062
+      height: .161132812
+    rotated: 0
+  - name: RunRightUp (9)
+    originalWidth: 199
+    originalHeight: 199
+    trimRect:
+      serializedVersion: 2
+      x: 27
+      y: 17
+      width: 124
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .0610351562
+      y: .489257812
+      width: .060546875
+      height: .155273438
+    rotated: 0
+  - name: RunUp 01
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 17
+      width: 73
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .267578125
+      y: .821289062
+      width: .0356445312
+      height: .178710938
+    rotated: 0
+  - name: RunUp 02
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 17
+      width: 77
+      height: 191
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .813476562
+      width: .0375976562
+      height: .186523438
+    rotated: 0
+  - name: RunUp 03
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 18
+      width: 80
+      height: 188
+    coords:
+      serializedVersion: 2
+      x: .115722656
+      y: .81640625
+      width: .0390625
+      height: .18359375
+    rotated: 0
+  - name: RunUp 04
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 18
+      width: 77
+      height: 186
+    coords:
+      serializedVersion: 2
+      x: .155273438
+      y: .818359375
+      width: .0375976562
+      height: .181640625
+    rotated: 0
+  - name: RunUp 05
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 18
+      width: 81
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .5
+      y: .826171875
+      width: .0395507812
+      height: .173828125
+    rotated: 0
+  - name: RunUp 06
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 19
+      width: 81
+      height: 164
+    coords:
+      serializedVersion: 2
+      x: .468261719
+      y: .65234375
+      width: .0395507812
+      height: .16015625
+    rotated: 0
+  - name: RunUp 07
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 19
+      width: 73
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .193359375
+      y: .821289062
+      width: .0356445312
+      height: .178710938
+    rotated: 0
+  - name: RunUp 08
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 18
+      width: 77
+      height: 191
+    coords:
+      serializedVersion: 2
+      x: .0380859375
+      y: .813476562
+      width: .0375976562
+      height: .186523438
+    rotated: 0
+  - name: RunUp 09
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 83
+      y: 19
+      width: 80
+      height: 189
+    coords:
+      serializedVersion: 2
+      x: .076171875
+      y: .815429688
+      width: .0390625
+      height: .184570312
+    rotated: 0
+  - name: RunUp 10
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 20
+      width: 77
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .229492188
+      y: .821289062
+      width: .0375976562
+      height: .178710938
+    rotated: 0
+  - name: RunUp 11
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 83
+      y: 20
+      width: 80
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .638671875
+      y: .827148438
+      width: .0390625
+      height: .172851562
+    rotated: 0
+  - name: RunUp 12
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 83
+      y: 20
+      width: 82
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .352539062
+      y: .651367188
+      width: .0400390625
+      height: .161132812
+    rotated: 0
+  material: {fileID: 2100000, guid: 36202940850f28f4d89dff21e4a403d7, type: 2}
+  texture: {fileID: 2800000, guid: 67fe0d6613b78b340951fad890d41f6a, type: 3}

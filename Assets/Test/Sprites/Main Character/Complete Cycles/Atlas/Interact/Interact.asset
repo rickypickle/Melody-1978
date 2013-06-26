@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Interact
+  elements:
+  - name: standingDownInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 58
+      width: 70
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .19921875
+      y: .31640625
+      width: .068359375
+      height: .33203125
+    rotated: 0
+  - name: standingDownInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 58
+      width: 70
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .129882812
+      y: .31640625
+      width: .068359375
+      height: .33203125
+    rotated: 0
+  - name: standingLeftDownInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 51
+      width: 69
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .310546875
+      width: .0673828125
+      height: .337890625
+    rotated: 0
+  - name: standingLeftDownInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 51
+      width: 62
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .068359375
+      y: .310546875
+      width: .060546875
+      height: .337890625
+    rotated: 0
+  - name: standingLeftInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 48
+      width: 78
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .436523438
+      y: .65625
+      width: .076171875
+      height: .34375
+    rotated: 0
+  - name: standingLeftInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 86
+      y: 48
+      width: 67
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .580078125
+      y: .65625
+      width: .0654296875
+      height: .34375
+    rotated: 0
+  - name: standingLeftUpInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 68
+      y: 43
+      width: 98
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .245117188
+      y: .65625
+      width: .095703125
+      height: .34375
+    rotated: 0
+  - name: standingLeftUpInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 70
+      y: 43
+      width: 96
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .341796875
+      y: .65625
+      width: .09375
+      height: .34375
+    rotated: 0
+  - name: standingRightDownInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 51
+      width: 69
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .8203125
+      y: .662109375
+      width: .0673828125
+      height: .337890625
+    rotated: 0
+  - name: standingRightDownInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 51
+      width: 62
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .888671875
+      y: .662109375
+      width: .060546875
+      height: .337890625
+    rotated: 0
+  - name: standingRightInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 48
+      width: 78
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .743164062
+      y: .65625
+      width: .076171875
+      height: .34375
+    rotated: 0
+  - name: standingRightInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 48
+      width: 67
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .513671875
+      y: .65625
+      width: .0654296875
+      height: .34375
+    rotated: 0
+  - name: standingRightUpInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 98
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .646484375
+      y: .65625
+      width: .095703125
+      height: .34375
+    rotated: 0
+  - name: standingRightUpInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 96
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .150390625
+      y: .65625
+      width: .09375
+      height: .34375
+    rotated: 0
+  - name: standingUpInteractSequenceComplete
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 43
+      width: 76
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .650390625
+      width: .07421875
+      height: .349609375
+    rotated: 0
+  - name: standingUpInteractSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 43
+      width: 76
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .0751953125
+      y: .650390625
+      width: .07421875
+      height: .349609375
+    rotated: 0
+  material: {fileID: 2100000, guid: 6f839568110e35748b1fe7993c1063c3, type: 2}
+  texture: {fileID: 2800000, guid: ae73a0c24464e9a4a97dcd7fdef9e283, type: 3}

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Door
+  elements:
+  - name: 00_Door
+    originalWidth: 116
+    originalHeight: 238
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 238
+    coords:
+      serializedVersion: 2
+      x: .45703125
+      y: .0703125
+      width: .11328125
+      height: .9296875
+    rotated: 0
+  - name: 01_Door
+    originalWidth: 116
+    originalHeight: 238
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 238
+    coords:
+      serializedVersion: 2
+      x: .342773438
+      y: .0703125
+      width: .11328125
+      height: .9296875
+    rotated: 0
+  - name: 02_Door
+    originalWidth: 116
+    originalHeight: 238
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 238
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0703125
+      width: .11328125
+      height: .9296875
+    rotated: 0
+  - name: 03_Door
+    originalWidth: 116
+    originalHeight: 238
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 238
+    coords:
+      serializedVersion: 2
+      x: .228515625
+      y: .0703125
+      width: .11328125
+      height: .9296875
+    rotated: 0
+  - name: 04_Door
+    originalWidth: 116
+    originalHeight: 238
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 238
+    coords:
+      serializedVersion: 2
+      x: .114257812
+      y: .0703125
+      width: .11328125
+      height: .9296875
+    rotated: 0
+  - name: 05_Door
+    originalWidth: 117
+    originalHeight: 238
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 117
+      height: 238
+    coords:
+      serializedVersion: 2
+      x: .571289062
+      y: .0703125
+      width: .114257812
+      height: .9296875
+    rotated: 0
+  material: {fileID: 2100000, guid: a4b373fdc4df7914386aed13455d69a6, type: 2}
+  texture: {fileID: 2800000, guid: 79873138d18d8c540a6222eaa52e00fb, type: 3}

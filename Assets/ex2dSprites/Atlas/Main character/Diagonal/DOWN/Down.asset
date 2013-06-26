@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Down
+  elements:
+  - name: 00_Diag_Down
+    originalWidth: 106
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 106
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .282226562
+      y: .701171875
+      width: .103515625
+      height: .298828125
+    rotated: 0
+  - name: 01_Diag_Down
+    originalWidth: 98
+    originalHeight: 158
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 98
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .69140625
+      width: .095703125
+      height: .30859375
+    rotated: 0
+  - name: 02_Diag_Down
+    originalWidth: 74
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 74
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .0966796875
+      y: .6953125
+      width: .072265625
+      height: .3046875
+    rotated: 0
+  - name: 03_Diag_Down
+    originalWidth: 59
+    originalHeight: 146
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 59
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .71484375
+      width: .0576171875
+      height: .28515625
+    rotated: 0
+  - name: 04_Diag_Down
+    originalWidth: 65
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 65
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .606445312
+      y: .71875
+      width: .0634765625
+      height: .28125
+    rotated: 0
+  - name: 05_Diag_Down
+    originalWidth: 87
+    originalHeight: 137
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 137
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .421875
+      width: .0849609375
+      height: .267578125
+    rotated: 0
+  - name: 06_Diag_Down
+    originalWidth: 114
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .169921875
+      y: .701171875
+      width: .111328125
+      height: .298828125
+    rotated: 0
+  - name: 07_Diag_Down
+    originalWidth: 91
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .516601562
+      y: .71875
+      width: .0888671875
+      height: .28125
+    rotated: 0
+  - name: 08_Diag_Down
+    originalWidth: 79
+    originalHeight: 141
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 141
+    coords:
+      serializedVersion: 2
+      x: .758789062
+      y: .724609375
+      width: .0771484375
+      height: .275390625
+    rotated: 0
+  - name: 09_Diag_Down
+    originalWidth: 72
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .4453125
+      y: .716796875
+      width: .0703125
+      height: .283203125
+    rotated: 0
+  - name: 10_Diag_Down
+    originalWidth: 90
+    originalHeight: 139
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 90
+      height: 139
+    coords:
+      serializedVersion: 2
+      x: .836914062
+      y: .728515625
+      width: .087890625
+      height: .271484375
+    rotated: 0
+  - name: 11_Diag_Down
+    originalWidth: 89
+    originalHeight: 142
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .670898438
+      y: .72265625
+      width: .0869140625
+      height: .27734375
+    rotated: 0
+  material: {fileID: 2100000, guid: f688607ad36ec2e4b89b65d2cc3806b6, type: 2}
+  texture: {fileID: 2800000, guid: 7e27e72943c1cae4ab43272ddbe8af52, type: 3}

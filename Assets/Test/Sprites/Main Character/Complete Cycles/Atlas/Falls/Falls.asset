@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: Falls
+  elements:
+  - name: fallingPlan1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 51
+      y: 52
+      width: 98
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .627929688
+      y: .650390625
+      width: .095703125
+      height: .349609375
+    rotated: 0
+  - name: fallingPlan1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 107
+      y: 52
+      width: 98
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .53125
+      y: .650390625
+      width: .095703125
+      height: .349609375
+    rotated: 0
+  - name: fallingPlan2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 75
+      y: 73
+      width: 118
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .116210938
+      y: .287109375
+      width: .115234375
+      height: .333984375
+    rotated: 0
+  - name: fallingPlan2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 63
+      y: 73
+      width: 118
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .287109375
+      width: .115234375
+      height: .333984375
+    rotated: 0
+  - name: fallingPlan3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 73
+      y: 87
+      width: 101
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .736328125
+      y: .318359375
+      width: .0986328125
+      height: .302734375
+    rotated: 0
+  - name: fallingPlan3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 82
+      y: 87
+      width: 101
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .63671875
+      y: .318359375
+      width: .0986328125
+      height: .302734375
+    rotated: 0
+  - name: fallingPlan4
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 83
+      y: 77
+      width: 105
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .3359375
+      y: .298828125
+      width: .102539062
+      height: .322265625
+    rotated: 0
+  - name: fallingPlan4
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 68
+      y: 77
+      width: 105
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .232421875
+      y: .298828125
+      width: .102539062
+      height: .322265625
+    rotated: 0
+  - name: fallingPlan5
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 64
+      y: 72
+      width: 100
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .538085938
+      y: .3125
+      width: .09765625
+      height: .30859375
+    rotated: 0
+  - name: fallingPlan5
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 92
+      y: 72
+      width: 100
+      height: 158
+    coords:
+      serializedVersion: 2
+      x: .439453125
+      y: .3125
+      width: .09765625
+      height: .30859375
+    rotated: 0
+  - name: fallingPlan6
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 49
+      width: 133
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .400390625
+      y: .642578125
+      width: .129882812
+      height: .357421875
+    rotated: 0
+  - name: fallingPlan6
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 32
+      y: 49
+      width: 133
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .26953125
+      y: .642578125
+      width: .129882812
+      height: .357421875
+    rotated: 0
+  - name: fallingPlan7
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 91
+      y: 43
+      width: 137
+      height: 193
+    coords:
+      serializedVersion: 2
+      x: .134765625
+      y: .623046875
+      width: .133789062
+      height: .376953125
+    rotated: 0
+  - name: fallingPlan7
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 28
+      y: 43
+      width: 137
+      height: 193
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .623046875
+      width: .133789062
+      height: .376953125
+    rotated: 0
+  - name: fallingPlan8
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 122
+      y: 47
+      width: 102
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .825195312
+      y: .662109375
+      width: .099609375
+      height: .337890625
+    rotated: 0
+  - name: fallingPlan8
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 32
+      y: 47
+      width: 102
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .724609375
+      y: .662109375
+      width: .099609375
+      height: .337890625
+    rotated: 0
+  material: {fileID: 2100000, guid: e4ae3c8abb4606a4e970fb4525786381, type: 2}
+  texture: {fileID: 2800000, guid: f816415b12945444ebdad069805b1286, type: 3}

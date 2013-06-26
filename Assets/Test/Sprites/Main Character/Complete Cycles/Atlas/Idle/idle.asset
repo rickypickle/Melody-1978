@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: idle
+  elements:
+  - name: standingDownIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 58
+      width: 70
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .559570312
+      y: .3125
+      width: .068359375
+      height: .33203125
+    rotated: 0
+  - name: standingDownIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 57
+      width: 70
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .490234375
+      y: .310546875
+      width: .068359375
+      height: .333984375
+    rotated: 0
+  - name: standingDownIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 94
+      y: 56
+      width: 70
+      height: 172
+    coords:
+      serializedVersion: 2
+      x: .420898438
+      y: .30859375
+      width: .068359375
+      height: .3359375
+    rotated: 0
+  - name: standingLeftDownIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 51
+      width: 62
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .297851562
+      y: .306640625
+      width: .060546875
+      height: .337890625
+    rotated: 0
+  - name: standingLeftDownIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 50
+      width: 62
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .174804688
+      y: .3046875
+      width: .060546875
+      height: .33984375
+    rotated: 0
+  - name: standingLeftDownIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 98
+      y: 49
+      width: 61
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .0537109375
+      y: .302734375
+      width: .0595703125
+      height: .341796875
+    rotated: 0
+  - name: standingLeftIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 99
+      y: 48
+      width: 54
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .602539062
+      y: .65625
+      width: .052734375
+      height: .34375
+    rotated: 0
+  - name: standingLeftIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 99
+      y: 47
+      width: 54
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .548828125
+      y: .654296875
+      width: .052734375
+      height: .345703125
+    rotated: 0
+  - name: standingLeftIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 99
+      y: 46
+      width: 54
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .360351562
+      y: .65234375
+      width: .052734375
+      height: .34765625
+    rotated: 0
+  - name: standingLeftUpIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 43
+      width: 82
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .899414062
+      y: .65625
+      width: .080078125
+      height: .34375
+    rotated: 0
+  - name: standingLeftUpIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 41
+      width: 82
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .279296875
+      y: .65234375
+      width: .080078125
+      height: .34765625
+    rotated: 0
+  - name: standingLeftUpIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 84
+      y: 43
+      width: 82
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .737304688
+      y: .65625
+      width: .080078125
+      height: .34375
+    rotated: 0
+  - name: standingRightDownIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 51
+      width: 62
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .359375
+      y: .306640625
+      width: .060546875
+      height: .337890625
+    rotated: 0
+  - name: standingRightDownIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 50
+      width: 62
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .236328125
+      y: .3046875
+      width: .060546875
+      height: .33984375
+    rotated: 0
+  - name: standingRightDownIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 97
+      y: 49
+      width: 61
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .114257812
+      y: .302734375
+      width: .0595703125
+      height: .341796875
+    rotated: 0
+  - name: standingRightIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 48
+      width: 54
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .30078125
+      width: .052734375
+      height: .34375
+    rotated: 0
+  - name: standingRightIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 47
+      width: 54
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .495117188
+      y: .654296875
+      width: .052734375
+      height: .345703125
+    rotated: 0
+  - name: standingRightIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 46
+      width: 54
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .225585938
+      y: .65234375
+      width: .052734375
+      height: .34765625
+    rotated: 0
+  - name: standingRightUpIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 82
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .818359375
+      y: .65625
+      width: .080078125
+      height: .34375
+    rotated: 0
+  - name: standingRightUpIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 41
+      width: 82
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .4140625
+      y: .65234375
+      width: .080078125
+      height: .34765625
+    rotated: 0
+  - name: standingRightUpIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 82
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .65625
+      y: .65625
+      width: .080078125
+      height: .34375
+    rotated: 0
+  - name: standingUpIdle1
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 43
+      width: 76
+      height: 179
+    coords:
+      serializedVersion: 2
+      x: .150390625
+      y: .650390625
+      width: .07421875
+      height: .349609375
+    rotated: 0
+  - name: standingUpIdle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 42
+      width: 76
+      height: 180
+    coords:
+      serializedVersion: 2
+      x: .0751953125
+      y: .6484375
+      width: .07421875
+      height: .3515625
+    rotated: 0
+  - name: standingUpIdle3
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 41
+      width: 76
+      height: 181
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .646484375
+      width: .07421875
+      height: .353515625
+    rotated: 0
+  material: {fileID: 2100000, guid: 5e89c1c23917d6f40a0763b4b6f5ce86, type: 2}
+  texture: {fileID: 2800000, guid: df4ad1e6459fae3408501ef7a0207231, type: 3}

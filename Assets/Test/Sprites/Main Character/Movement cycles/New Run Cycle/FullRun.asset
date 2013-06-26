@@ -1,0 +1,2063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: FullRun
+  elements:
+  - name: 00_E
+    originalWidth: 52
+    originalHeight: 175
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 52
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .617675781
+      y: .829101562
+      width: .025390625
+      height: .170898438
+    rotated: 0
+  - name: 00_N
+    originalWidth: 81
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .1640625
+      y: .481445312
+      width: .0395507812
+      height: .161132812
+    rotated: 0
+  - name: 00_NE
+    originalWidth: 91
+    originalHeight: 162
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .404296875
+      y: .484375
+      width: .0444335938
+      height: .158203125
+    rotated: 0
+  - name: 00_NW
+    originalWidth: 68
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 68
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .631347656
+      y: .650390625
+      width: .033203125
+      height: .162109375
+    rotated: 0
+  - name: 00_S
+    originalWidth: 79
+    originalHeight: 154
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .421386719
+      y: .330078125
+      width: .0385742188
+      height: .150390625
+    rotated: 0
+  - name: 00_SE
+    originalWidth: 53
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .470214844
+      y: .6484375
+      width: .0258789062
+      height: .1640625
+    rotated: 0
+  - name: 00_SW
+    originalWidth: 89
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .600585938
+      y: .186523438
+      width: .0434570312
+      height: .141601562
+    rotated: 0
+  - name: 00_W
+    originalWidth: 118
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .181152344
+      y: .329101562
+      width: .0576171875
+      height: .151367188
+    rotated: 0
+  - name: 01_E
+    originalWidth: 51
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 51
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .409179688
+      y: .828125
+      width: .0249023438
+      height: .171875
+    rotated: 0
+  - name: 01_N
+    originalWidth: 81
+    originalHeight: 177
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .303710938
+      y: .827148438
+      width: .0395507812
+      height: .172851562
+    rotated: 0
+  - name: 01_NE
+    originalWidth: 89
+    originalHeight: 173
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .643554688
+      width: .0434570312
+      height: .168945312
+    rotated: 0
+  - name: 01_NW
+    originalWidth: 68
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 68
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .879882812
+      y: .650390625
+      width: .033203125
+      height: .162109375
+    rotated: 0
+  - name: 01_S
+    originalWidth: 72
+    originalHeight: 142
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .0356445312
+      y: .04296875
+      width: .03515625
+      height: .138671875
+    rotated: 0
+  - name: 01_SE
+    originalWidth: 53
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .578613281
+      y: .6484375
+      width: .0258789062
+      height: .1640625
+    rotated: 0
+  - name: 01_SW
+    originalWidth: 90
+    originalHeight: 139
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 90
+      height: 139
+    coords:
+      serializedVersion: 2
+      x: .184570312
+      y: .0458984375
+      width: .0439453125
+      height: .135742188
+    rotated: 0
+  - name: 01_W
+    originalWidth: 114
+    originalHeight: 162
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .249023438
+      y: .484375
+      width: .0556640625
+      height: .158203125
+    rotated: 0
+  - name: 02_E
+    originalWidth: 52
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 52
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .459960938
+      y: .828125
+      width: .025390625
+      height: .171875
+    rotated: 0
+  - name: 02_N
+    originalWidth: 77
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .265625
+      y: .821289062
+      width: .0375976562
+      height: .178710938
+    rotated: 0
+  - name: 02_NE
+    originalWidth: 82
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .913574219
+      y: .651367188
+      width: .0400390625
+      height: .161132812
+    rotated: 0
+  - name: 02_NW
+    originalWidth: 68
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 68
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .846191406
+      y: .650390625
+      width: .033203125
+      height: .162109375
+    rotated: 0
+  - name: 02_S
+    originalWidth: 75
+    originalHeight: 151
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 75
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .885253906
+      y: .333007812
+      width: .0366210938
+      height: .147460938
+    rotated: 0
+  - name: 02_SE
+    originalWidth: 54
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 54
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .524902344
+      y: .6484375
+      width: .0263671875
+      height: .1640625
+    rotated: 0
+  - name: 02_SW
+    originalWidth: 72
+    originalHeight: 143
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 143
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .0419921875
+      width: .03515625
+      height: .139648438
+    rotated: 0
+  - name: 02_W
+    originalWidth: 102
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 102
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .680664062
+      y: .490234375
+      width: .0498046875
+      height: .15234375
+    rotated: 0
+  - name: 03_E
+    originalWidth: 75
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 75
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .804199219
+      y: .830078125
+      width: .0366210938
+      height: .169921875
+    rotated: 0
+  - name: 03_N
+    originalWidth: 80
+    originalHeight: 188
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 188
+    coords:
+      serializedVersion: 2
+      x: .115234375
+      y: .81640625
+      width: .0390625
+      height: .18359375
+    rotated: 0
+  - name: 03_NE
+    originalWidth: 97
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 97
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .620605469
+      y: .331054688
+      width: .0473632812
+      height: .149414062
+    rotated: 0
+  - name: 03_NW
+    originalWidth: 81
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .738769531
+      y: .650390625
+      width: .0395507812
+      height: .162109375
+    rotated: 0
+  - name: 03_S
+    originalWidth: 77
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .481445312
+      width: .0375976562
+      height: .161132812
+    rotated: 0
+  - name: 03_SE
+    originalWidth: 57
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 57
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .441894531
+      y: .6484375
+      width: .0278320312
+      height: .1640625
+    rotated: 0
+  - name: 03_SW
+    originalWidth: 79
+    originalHeight: 142
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .0712890625
+      y: .04296875
+      width: .0385742188
+      height: .138671875
+    rotated: 0
+  - name: 03_W
+    originalWidth: 85
+    originalHeight: 154
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 85
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .379394531
+      y: .330078125
+      width: .0415039062
+      height: .150390625
+    rotated: 0
+  - name: 04_E
+    originalWidth: 127
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 127
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .0625
+      y: .182617188
+      width: .0620117188
+      height: .145507812
+    rotated: 0
+  - name: 04_N
+    originalWidth: 77
+    originalHeight: 191
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 191
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .813476562
+      width: .0375976562
+      height: .186523438
+    rotated: 0
+  - name: 04_NE
+    originalWidth: 105
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 105
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .893066406
+      y: .830078125
+      width: .0512695312
+      height: .169921875
+    rotated: 0
+  - name: 04_NW
+    originalWidth: 118
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .123046875
+      y: .329101562
+      width: .0576171875
+      height: .151367188
+    rotated: 0
+  - name: 04_S
+    originalWidth: 80
+    originalHeight: 170
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .208984375
+      y: .646484375
+      width: .0390625
+      height: .166015625
+    rotated: 0
+  - name: 04_SE
+    originalWidth: 106
+    originalHeight: 152
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 106
+      height: 152
+    coords:
+      serializedVersion: 2
+      x: .833007812
+      y: .33203125
+      width: .0517578125
+      height: .1484375
+    rotated: 0
+  - name: 04_SW
+    originalWidth: 91
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .555664062
+      y: .186523438
+      width: .0444335938
+      height: .141601562
+    rotated: 0
+  - name: 04_W
+    originalWidth: 114
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .564453125
+      y: .331054688
+      width: .0556640625
+      height: .149414062
+    rotated: 0
+  - name: 05_E
+    originalWidth: 85
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 85
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .125
+      y: .182617188
+      width: .0415039062
+      height: .145507812
+    rotated: 0
+  - name: 05_N
+    originalWidth: 74
+    originalHeight: 184
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 74
+      height: 184
+    coords:
+      serializedVersion: 2
+      x: .154785156
+      y: .8203125
+      width: .0361328125
+      height: .1796875
+    rotated: 0
+  - name: 05_NE
+    originalWidth: 99
+    originalHeight: 175
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 99
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .643554688
+      y: .829101562
+      width: .0483398438
+      height: .170898438
+    rotated: 0
+  - name: 05_NW
+    originalWidth: 103
+    originalHeight: 147
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 103
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .39453125
+      y: .184570312
+      width: .0502929688
+      height: .143554688
+    rotated: 0
+  - name: 05_S
+    originalWidth: 81
+    originalHeight: 171
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .168945312
+      y: .645507812
+      width: .0395507812
+      height: .166992188
+    rotated: 0
+  - name: 05_SE
+    originalWidth: 98
+    originalHeight: 159
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 98
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .585449219
+      y: .487304688
+      width: .0478515625
+      height: .155273438
+    rotated: 0
+  - name: 05_SW
+    originalWidth: 114
+    originalHeight: 152
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 152
+    coords:
+      serializedVersion: 2
+      x: .668457031
+      y: .33203125
+      width: .0556640625
+      height: .1484375
+    rotated: 0
+  - name: 05_W
+    originalWidth: 132
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 132
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .329101562
+      width: .064453125
+      height: .151367188
+    rotated: 0
+  - name: 06_E
+    originalWidth: 81
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .819335938
+      y: .1875
+      width: .0395507812
+      height: .140625
+    rotated: 0
+  - name: 06_N
+    originalWidth: 82
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .0786132812
+      y: .481445312
+      width: .0400390625
+      height: .161132812
+    rotated: 0
+  - name: 06_NE
+    originalWidth: 86
+    originalHeight: 173
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 86
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .0864257812
+      y: .643554688
+      width: .0419921875
+      height: .168945312
+    rotated: 0
+  - name: 06_NW
+    originalWidth: 95
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 95
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .852539062
+      y: .490234375
+      width: .0463867188
+      height: .15234375
+    rotated: 0
+  - name: 06_S
+    originalWidth: 81
+    originalHeight: 154
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .339355469
+      y: .330078125
+      width: .0395507812
+      height: .150390625
+    rotated: 0
+  - name: 06_SE
+    originalWidth: 72
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .78125
+      y: .490234375
+      width: .03515625
+      height: .15234375
+    rotated: 0
+  - name: 06_SW
+    originalWidth: 87
+    originalHeight: 136
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 136
+    coords:
+      serializedVersion: 2
+      x: .31640625
+      y: .048828125
+      width: .0424804688
+      height: .1328125
+    rotated: 0
+  - name: 06_W
+    originalWidth: 137
+    originalHeight: 147
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 137
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .259765625
+      y: .184570312
+      width: .0668945312
+      height: .143554688
+    rotated: 0
+  - name: 07_E
+    originalWidth: 87
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .688476562
+      y: .186523438
+      width: .0424804688
+      height: .141601562
+    rotated: 0
+  - name: 07_N
+    originalWidth: 80
+    originalHeight: 177
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 177
+    coords:
+      serializedVersion: 2
+      x: .34375
+      y: .827148438
+      width: .0390625
+      height: .172851562
+    rotated: 0
+  - name: 07_NE
+    originalWidth: 91
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .204101562
+      y: .481445312
+      width: .0444335938
+      height: .161132812
+    rotated: 0
+  - name: 07_NW
+    originalWidth: 87
+    originalHeight: 162
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .361328125
+      y: .484375
+      width: .0424804688
+      height: .158203125
+    rotated: 0
+  - name: 07_S
+    originalWidth: 71
+    originalHeight: 142
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 71
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .110351562
+      y: .04296875
+      width: .0346679688
+      height: .138671875
+    rotated: 0
+  - name: 07_SE
+    originalWidth: 59
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 59
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .959472656
+      y: .334960938
+      width: .0288085938
+      height: .145507812
+    rotated: 0
+  - name: 07_SW
+    originalWidth: 64
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .931152344
+      y: .1875
+      width: .03125
+      height: .140625
+    rotated: 0
+  - name: 07_W
+    originalWidth: 112
+    originalHeight: 146
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 112
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: .4453125
+      y: .185546875
+      width: .0546875
+      height: .142578125
+    rotated: 0
+  - name: 08_E
+    originalWidth: 112
+    originalHeight: 146
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 112
+      height: 146
+    coords:
+      serializedVersion: 2
+      x: .500488281
+      y: .185546875
+      width: .0546875
+      height: .142578125
+    rotated: 0
+  - name: 08_N
+    originalWidth: 77
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .227539062
+      y: .821289062
+      width: .0375976562
+      height: .178710938
+    rotated: 0
+  - name: 08_NE
+    originalWidth: 87
+    originalHeight: 162
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .494140625
+      y: .484375
+      width: .0424804688
+      height: .158203125
+    rotated: 0
+  - name: 08_NW
+    originalWidth: 91
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .119140625
+      y: .481445312
+      width: .0444335938
+      height: .161132812
+    rotated: 0
+  - name: 08_S
+    originalWidth: 75
+    originalHeight: 151
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 75
+      height: 151
+    coords:
+      serializedVersion: 2
+      x: .922363281
+      y: .333007812
+      width: .0366210938
+      height: .147460938
+    rotated: 0
+  - name: 08_SE
+    originalWidth: 64
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .899414062
+      y: .1875
+      width: .03125
+      height: .140625
+    rotated: 0
+  - name: 08_SW
+    originalWidth: 59
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 59
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .964355469
+      y: .497070312
+      width: .0288085938
+      height: .145507812
+    rotated: 0
+  - name: 08_W
+    originalWidth: 87
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .776367188
+      y: .186523438
+      width: .0424804688
+      height: .141601562
+    rotated: 0
+  - name: 09_E
+    originalWidth: 137
+    originalHeight: 147
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 137
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .327148438
+      y: .184570312
+      width: .0668945312
+      height: .143554688
+    rotated: 0
+  - name: 09_N
+    originalWidth: 80
+    originalHeight: 189
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 189
+    coords:
+      serializedVersion: 2
+      x: .0756835938
+      y: .815429688
+      width: .0390625
+      height: .184570312
+    rotated: 0
+  - name: 09_NE
+    originalWidth: 95
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 95
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .633789062
+      y: .490234375
+      width: .0463867188
+      height: .15234375
+    rotated: 0
+  - name: 09_NW
+    originalWidth: 86
+    originalHeight: 173
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 86
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .0439453125
+      y: .643554688
+      width: .0419921875
+      height: .168945312
+    rotated: 0
+  - name: 09_S
+    originalWidth: 77
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .954101562
+      y: .651367188
+      width: .0375976562
+      height: .161132812
+    rotated: 0
+  - name: 09_SE
+    originalWidth: 87
+    originalHeight: 136
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 87
+      height: 136
+    coords:
+      serializedVersion: 2
+      x: .2734375
+      y: .048828125
+      width: .0424804688
+      height: .1328125
+    rotated: 0
+  - name: 09_SW
+    originalWidth: 72
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .816894531
+      y: .490234375
+      width: .03515625
+      height: .15234375
+    rotated: 0
+  - name: 09_W
+    originalWidth: 81
+    originalHeight: 144
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 144
+    coords:
+      serializedVersion: 2
+      x: .859375
+      y: .1875
+      width: .0395507812
+      height: .140625
+    rotated: 0
+  - name: 10_E
+    originalWidth: 132
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 132
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .899414062
+      y: .491210938
+      width: .064453125
+      height: .151367188
+    rotated: 0
+  - name: 10_N
+    originalWidth: 76
+    originalHeight: 191
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 76
+      height: 191
+    coords:
+      serializedVersion: 2
+      x: .0380859375
+      y: .813476562
+      width: .037109375
+      height: .186523438
+    rotated: 0
+  - name: 10_NE
+    originalWidth: 103
+    originalHeight: 147
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 103
+      height: 147
+    coords:
+      serializedVersion: 2
+      x: .208984375
+      y: .184570312
+      width: .0502929688
+      height: .143554688
+    rotated: 0
+  - name: 10_NW
+    originalWidth: 99
+    originalHeight: 175
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 99
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .692382812
+      y: .829101562
+      width: .0483398438
+      height: .170898438
+    rotated: 0
+  - name: 10_S
+    originalWidth: 80
+    originalHeight: 170
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .280273438
+      y: .646484375
+      width: .0390625
+      height: .166015625
+    rotated: 0
+  - name: 10_SE
+    originalWidth: 114
+    originalHeight: 152
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 152
+    coords:
+      serializedVersion: 2
+      x: .724609375
+      y: .33203125
+      width: .0556640625
+      height: .1484375
+    rotated: 0
+  - name: 10_SW
+    originalWidth: 98
+    originalHeight: 159
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 98
+      height: 159
+    coords:
+      serializedVersion: 2
+      x: .537109375
+      y: .487304688
+      width: .0478515625
+      height: .155273438
+    rotated: 0
+  - name: 10_W
+    originalWidth: 85
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 85
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: .166992188
+      y: .182617188
+      width: .0415039062
+      height: .145507812
+    rotated: 0
+  - name: 11_E
+    originalWidth: 114
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .460449219
+      y: .331054688
+      width: .0556640625
+      height: .149414062
+    rotated: 0
+  - name: 11_N
+    originalWidth: 73
+    originalHeight: 183
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 73
+      height: 183
+    coords:
+      serializedVersion: 2
+      x: .19140625
+      y: .821289062
+      width: .0356445312
+      height: .178710938
+    rotated: 0
+  - name: 11_NE
+    originalWidth: 118
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .0649414062
+      y: .329101562
+      width: .0576171875
+      height: .151367188
+    rotated: 0
+  - name: 11_NW
+    originalWidth: 105
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 105
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .841308594
+      y: .830078125
+      width: .0512695312
+      height: .169921875
+    rotated: 0
+  - name: 11_S
+    originalWidth: 81
+    originalHeight: 171
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 171
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .645507812
+      width: .0395507812
+      height: .166992188
+    rotated: 0
+  - name: 11_SE
+    originalWidth: 91
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .731445312
+      y: .186523438
+      width: .0444335938
+      height: .141601562
+    rotated: 0
+  - name: 11_SW
+    originalWidth: 106
+    originalHeight: 152
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 106
+      height: 152
+    coords:
+      serializedVersion: 2
+      x: .780761719
+      y: .33203125
+      width: .0517578125
+      height: .1484375
+    rotated: 0
+  - name: 11_W
+    originalWidth: 127
+    originalHeight: 149
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 127
+      height: 149
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .182617188
+      width: .0620117188
+      height: .145507812
+    rotated: 0
+  - name: 12_E
+    originalWidth: 85
+    originalHeight: 154
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 85
+      height: 154
+    coords:
+      serializedVersion: 2
+      x: .297363281
+      y: .330078125
+      width: .0415039062
+      height: .150390625
+    rotated: 0
+  - name: 12_N
+    originalWidth: 67
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 67
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .584472656
+      y: .828125
+      width: .0327148438
+      height: .171875
+    rotated: 0
+  - name: 12_NE
+    originalWidth: 81
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 81
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .665039062
+      y: .650390625
+      width: .0395507812
+      height: .162109375
+    rotated: 0
+  - name: 12_NW
+    originalWidth: 97
+    originalHeight: 153
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 97
+      height: 153
+    coords:
+      serializedVersion: 2
+      x: .516601562
+      y: .331054688
+      width: .0473632812
+      height: .149414062
+    rotated: 0
+  - name: 12_S
+    originalWidth: 64
+    originalHeight: 169
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .3515625
+      y: .647460938
+      width: .03125
+      height: .165039062
+    rotated: 0
+  - name: 12_SE
+    originalWidth: 79
+    originalHeight: 142
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 79
+      height: 142
+    coords:
+      serializedVersion: 2
+      x: .145507812
+      y: .04296875
+      width: .0385742188
+      height: .138671875
+    rotated: 0
+  - name: 12_SW
+    originalWidth: 57
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 57
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .496582031
+      y: .6484375
+      width: .0278320312
+      height: .1640625
+    rotated: 0
+  - name: 12_W
+    originalWidth: 75
+    originalHeight: 174
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 75
+      height: 174
+    coords:
+      serializedVersion: 2
+      x: .767089844
+      y: .830078125
+      width: .0366210938
+      height: .169921875
+    rotated: 0
+  - name: 13_E
+    originalWidth: 102
+    originalHeight: 156
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 102
+      height: 156
+    coords:
+      serializedVersion: 2
+      x: .730957031
+      y: .490234375
+      width: .0498046875
+      height: .15234375
+    rotated: 0
+  - name: 13_N
+    originalWidth: 66
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 66
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .485839844
+      y: .828125
+      width: .0322265625
+      height: .171875
+    rotated: 0
+  - name: 13_NE
+    originalWidth: 68
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 68
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .778808594
+      y: .650390625
+      width: .033203125
+      height: .162109375
+    rotated: 0
+  - name: 13_NW
+    originalWidth: 82
+    originalHeight: 165
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 82
+      height: 165
+    coords:
+      serializedVersion: 2
+      x: .0380859375
+      y: .481445312
+      width: .0400390625
+      height: .161132812
+    rotated: 0
+  - name: 13_S
+    originalWidth: 64
+    originalHeight: 170
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 170
+    coords:
+      serializedVersion: 2
+      x: .248535156
+      y: .646484375
+      width: .03125
+      height: .166015625
+    rotated: 0
+  - name: 13_SE
+    originalWidth: 72
+    originalHeight: 143
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 143
+    coords:
+      serializedVersion: 2
+      x: .962890625
+      y: .188476562
+      width: .03515625
+      height: .139648438
+    rotated: 0
+  - name: 13_SW
+    originalWidth: 54
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 54
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .551757812
+      y: .6484375
+      width: .0263671875
+      height: .1640625
+    rotated: 0
+  - name: 13_W
+    originalWidth: 52
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 52
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .383300781
+      y: .828125
+      width: .025390625
+      height: .171875
+    rotated: 0
+  - name: 14_E
+    originalWidth: 114
+    originalHeight: 162
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 114
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .305175781
+      y: .484375
+      width: .0556640625
+      height: .158203125
+    rotated: 0
+  - name: 14_N
+    originalWidth: 67
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 67
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .518554688
+      y: .828125
+      width: .0327148438
+      height: .171875
+    rotated: 0
+  - name: 14_NE
+    originalWidth: 68
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 68
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .705078125
+      y: .650390625
+      width: .033203125
+      height: .162109375
+    rotated: 0
+  - name: 14_NW
+    originalWidth: 89
+    originalHeight: 173
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .944824219
+      y: .831054688
+      width: .0434570312
+      height: .168945312
+    rotated: 0
+  - name: 14_S
+    originalWidth: 65
+    originalHeight: 169
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 65
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .383300781
+      y: .647460938
+      width: .0317382812
+      height: .165039062
+    rotated: 0
+  - name: 14_SE
+    originalWidth: 90
+    originalHeight: 139
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 90
+      height: 139
+    coords:
+      serializedVersion: 2
+      x: .229003906
+      y: .0458984375
+      width: .0439453125
+      height: .135742188
+    rotated: 0
+  - name: 14_SW
+    originalWidth: 53
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .415527344
+      y: .6484375
+      width: .0258789062
+      height: .1640625
+    rotated: 0
+  - name: 14_W
+    originalWidth: 51
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 51
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .434570312
+      y: .828125
+      width: .0249023438
+      height: .171875
+    rotated: 0
+  - name: 15_E
+    originalWidth: 118
+    originalHeight: 155
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 155
+    coords:
+      serializedVersion: 2
+      x: .239257812
+      y: .329101562
+      width: .0576171875
+      height: .151367188
+    rotated: 0
+  - name: 15_N
+    originalWidth: 66
+    originalHeight: 176
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 66
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .551757812
+      y: .828125
+      width: .0322265625
+      height: .171875
+    rotated: 0
+  - name: 15_NE
+    originalWidth: 68
+    originalHeight: 166
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 68
+      height: 166
+    coords:
+      serializedVersion: 2
+      x: .8125
+      y: .650390625
+      width: .033203125
+      height: .162109375
+    rotated: 0
+  - name: 15_NW
+    originalWidth: 91
+    originalHeight: 162
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 162
+    coords:
+      serializedVersion: 2
+      x: .44921875
+      y: .484375
+      width: .0444335938
+      height: .158203125
+    rotated: 0
+  - name: 15_S
+    originalWidth: 64
+    originalHeight: 169
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 64
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .319824219
+      y: .647460938
+      width: .03125
+      height: .165039062
+    rotated: 0
+  - name: 15_SE
+    originalWidth: 89
+    originalHeight: 145
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
+      height: 145
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .186523438
+      width: .0434570312
+      height: .141601562
+    rotated: 0
+  - name: 15_SW
+    originalWidth: 53
+    originalHeight: 168
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 53
+      height: 168
+    coords:
+      serializedVersion: 2
+      x: .604980469
+      y: .6484375
+      width: .0258789062
+      height: .1640625
+    rotated: 0
+  - name: 15_W
+    originalWidth: 52
+    originalHeight: 175
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 52
+      height: 175
+    coords:
+      serializedVersion: 2
+      x: .741210938
+      y: .829101562
+      width: .025390625
+      height: .170898438
+    rotated: 0
+  material: {fileID: 2100000, guid: 63a4072823ac3714799fd79cc2ff451d, type: 2}
+  texture: {fileID: 2800000, guid: d4f78640f84c84a49bc5dd39244b594b, type: 3}
