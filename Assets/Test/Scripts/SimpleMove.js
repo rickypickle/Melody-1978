@@ -13,10 +13,31 @@ var northWest : GameObject;
 var southEast : GameObject;
 var southWest : GameObject;
 
+var eastW : GameObject;
+var westW : GameObject;
+var northW : GameObject;
+var southW : GameObject;
+
+var northEastW : GameObject;
+var northWestW : GameObject;
+var southEastW : GameObject;
+var southWestW : GameObject;
+
 var eastStand : GameObject;
 var westStand : GameObject;
 var northStand : GameObject;
 var southStand : GameObject;
+
+
+var eastRun : GameObject;
+var westRun : GameObject;
+var northRun : GameObject;
+var southRun : GameObject;
+var northEastRun :GameObject;
+var northWestRun :GameObject;
+var southEastRun :GameObject;
+var southWestRun :GameObject;
+
 
 var northEastStand : GameObject;
 var northWestStand : GameObject;
@@ -34,20 +55,32 @@ gunWest = GameObject.FindGameObjectWithTag("gunWest");
 //gunSouth = GameObject.FindGameObjectWithTag("gunSouth");
 //gunNorth = GameObject.FindGameObjectWithTag("gunNorth");
 
-east = GameObject.FindGameObjectWithTag("East");
-west = GameObject.FindGameObjectWithTag("West");
-north = GameObject.FindGameObjectWithTag("North");
-south = GameObject.FindGameObjectWithTag("South");
+eastW = GameObject.FindGameObjectWithTag("East");
+westW= GameObject.FindGameObjectWithTag("West");
+northW = GameObject.FindGameObjectWithTag("North");
+southW = GameObject.FindGameObjectWithTag("South");
+
+northEastW = GameObject.FindGameObjectWithTag("northEast");
+northWestW = GameObject.FindGameObjectWithTag("northWest");
+southEastW = GameObject.FindGameObjectWithTag("southEast");
+southWestW = GameObject.FindGameObjectWithTag("southWest");
+
+
+eastRun = GameObject.FindGameObjectWithTag("EastRun");
+westRun = GameObject.FindGameObjectWithTag("WestRun");
+northRun = GameObject.FindGameObjectWithTag("NorthRun");
+southRun = GameObject.FindGameObjectWithTag("SouthRun");
+		
+northEastRun = GameObject.FindGameObjectWithTag("NorthEastRun");
+northWestRun = GameObject.FindGameObjectWithTag("NorthWestRun");
+southEastRun = GameObject.FindGameObjectWithTag("SouthEastRun");
+southWestRun = GameObject.FindGameObjectWithTag("SouthWestRun");
+
 
 northEastStand = GameObject.FindGameObjectWithTag("northEastIdle");
 northWestStand = GameObject.FindGameObjectWithTag("northWestIdle");
 southEastStand = GameObject.FindGameObjectWithTag("southEastIdle");
 southWestStand = GameObject.FindGameObjectWithTag("southWestIdle");
-
-northEast = GameObject.FindGameObjectWithTag("northEast");
-northWest = GameObject.FindGameObjectWithTag("northWest");
-southEast = GameObject.FindGameObjectWithTag("southEast");
-southWest = GameObject.FindGameObjectWithTag("southWest");
 
 westStand = GameObject.FindGameObjectWithTag("eastIdle");
 eastStand = GameObject.FindGameObjectWithTag("westIdle");
@@ -55,36 +88,7 @@ northStand = GameObject.FindGameObjectWithTag("northIdle");
 southStand = GameObject.FindGameObjectWithTag("southIdle");
 
 
-var eastAnim:exSpriteAnimation;
-var westAnim:exSpriteAnimation;
-var southAnim:exSpriteAnimation;
-var northAnim:exSpriteAnimation;
 
-var northEastAnim:exSpriteAnimation;
-var norhtWestAnim:exSpriteAnimation;
-var southEastAnim:exSpriteAnimation;
-var southWestAnim:exSpriteAnimation;
-
-
-var eastIdle:exSpriteAnimation;
-var westIdle:exSpriteAnimation;
-var southIdle:exSpriteAnimation;
-var northIdle:exSpriteAnimation;
-
-eastAnim = east.GetComponent.<exSpriteAnimation>();	
-westAnim = west.GetComponent.<exSpriteAnimation>();	
-southAnim = south.GetComponent.<exSpriteAnimation>();	
-northAnim = north.GetComponent.<exSpriteAnimation>();	
-
-northEastAnim = northEast.GetComponent.<exSpriteAnimation>();	
-norhtWestAnim = northWest.GetComponent.<exSpriteAnimation>();	
-southEastAnim = southEast.GetComponent.<exSpriteAnimation>();	
-southWestAnim = southWest.GetComponent.<exSpriteAnimation>();	
-
-eastIdle = east.GetComponent.<exSpriteAnimation>();	
-westIdle = west.GetComponent.<exSpriteAnimation>();	
-southIdle = south.GetComponent.<exSpriteAnimation>();	
-northIdle = north.GetComponent.<exSpriteAnimation>();
 
 disableAllStates();
 eastStand.SetActive(true);
@@ -118,6 +122,72 @@ aimAnim = aim.GetComponent.<exSpriteAnimation>();
 var totFrames = 0;
 Debug.Log("Frames "+ totFrames);
 aim.SetActive(false);
+
+east = eastW;
+		west = westW;
+		north = northW;
+		south = southW;
+		
+		northEast = northEastW;
+		northWest = northWestW;
+		southEast = southEastW;
+		southWest = southWestW;
+
+function changeRun()
+{
+	//disableAllStates();
+	if (StateMachine.Run){
+		east = eastRun;
+		west = westRun;
+		north = northRun;
+		south = southRun;
+		
+		northEast = northEastRun;
+		northWest = northWestRun;
+		southEast = southEastRun;
+		southWest = southWestRun;
+		
+	}
+	else{
+		east = eastW;
+		west = westW;
+		north = northW;
+		south = southW;
+		
+		northEast = northEastW;
+		northWest = northWestW;
+		southEast = southEastW;
+		southWest = southWestW;
+	}
+	if ((!Gpressed)&&(!StateMachine.using)&&(R+L+U+D > 0)){
+	disableAllStates();
+		if (playerDirection == "north"){
+			north.SetActive(true);
+		}
+		else if (playerDirection == "south"){
+			south.SetActive(true);
+		}
+		else if (playerDirection == "northEast"){
+			northEast.SetActive(true);
+		}
+		else if (playerDirection == "southEast"){
+			southEast.SetActive(true);
+		}
+		else if (playerDirection == "southWest"){
+			southWest.SetActive(true);
+		}
+		else if (playerDirection == "northWest"){
+			northWest.SetActive(true);
+		}
+		else if (playerDirection == "west"){
+			west.SetActive(true);
+		}
+		else if (playerDirection == "east"){
+			east.SetActive(true);
+		}
+	}
+
+}
 
 
 
@@ -187,29 +257,42 @@ aim.SetActive(false);
 static var playerDirection : String = "east";
 function Update () 
 {
-	//Debug.Log(Gpressed);
-	//transform.Translate(Input.GetAxisRaw("Vertical") * Vector3.forward * speed);
-	//transform.Translate(Input.GetAxisRaw("Horizontal") * Vector3.right * speed);
+	//RUNNING
+		if (Input.GetKeyDown(KeyCode.LeftShift)){
+		        	StateMachine.Run = true;
+		        	
+		        		changeRun();
+		        	
+		        	MoveCC.speed = MoveCC.speed * 2;
+		        }
+		if (Input.GetKeyUp(KeyCode.LeftShift)){
+		        	StateMachine.Run = false;
+		        	
+		        		changeRun();
+		        	
+		        	MoveCC.speed = MoveCC.speed / 2;
+		        }
 	
+	// SHOOTING
 	if (Input.GetKeyUp(KeyCode.Return)){
-		//disableAllStates();
-		aimDirection = (StateMachine.direction - 1) * 2;
-		standCorrect();
-		
-		StateMachine.using = false;
-		
-		Debug.Log(aimDirection + " whuurr");
+				//disableAllStates();
+				aimDirection = (StateMachine.direction - 1) * 2;
+				standCorrect();
+				
+				StateMachine.using = false;
+				
+				Debug.Log(aimDirection + " whuurr");
+				}
+			
+			if (Input.GetKeyDown(KeyCode.Return)){
+			if (StateMachine.useableArea){
+				StateMachine.using = true;
+				disableAllStates();
+				Use.setDir();
+			}
+				
 		}
-	
-	if (Input.GetKeyDown(KeyCode.Return)){
-	if (StateMachine.useableArea){
-		StateMachine.using = true;
-		disableAllStates();
-		Use.setDir();
-	}
-		
-		}
-	else if (Input.GetKeyDown(KeyCode.G)){
+	else if (Input.GetKeyDown(KeyCode.G)){ // AIMING
 		disableAllStates();
 		
 		aim.SetActive(true);
@@ -281,19 +364,24 @@ function Update ()
 			U = 1;
 			disableAllStates();
 			if ((U==1)&&(R==1)){
-				northEast.SetActive(true);
+				
+					northEast.SetActive(true);
+				
+				
 				playerDirection = "northEast";
 				StateMachine.aimDirection = 14;
 				StateMachine.direction = 8;
 			}
 			else if ((U==1)&&(L==1)){
 				northWest.SetActive(true);
+				
 				playerDirection = "northWest";
 				StateMachine.aimDirection = 2;
 				StateMachine.direction = 2;
 			}
 			else{
 				north.SetActive(true);
+				
 				playerDirection = "north";
 				StateMachine.aimDirection = 0;
 				StateMachine.direction = 1;
@@ -307,18 +395,21 @@ function Update ()
 			disableAllStates();
 			if ((D==1)&&(R==1)){
 				southEast.SetActive(true);
+				
 				playerDirection = "southEast";
 				StateMachine.aimDirection = 10;
 				StateMachine.direction = 6;
 			}
 			else if ((D==1)&&(L==1)){
 				southWest.SetActive(true);
+				
 				playerDirection = "southWest";
 				StateMachine.aimDirection = 6;
 				StateMachine.direction = 4;
 			}
 			else{
 				south.SetActive(true);
+				
 				playerDirection = "south";
 				StateMachine.aimDirection = 8;
 				StateMachine.direction = 5;
@@ -332,18 +423,21 @@ function Update ()
 			disableAllStates();
 			if ((U==1)&&(L==1)){
 				northWest.SetActive(true);
+				
 				playerDirection = "northWest";
 				StateMachine.aimDirection = 2;
 				StateMachine.direction = 2;
 			}
 			else if ((D==1)&&(L==1)){
 				southWest.SetActive(true);
+				
 				playerDirection = "southWest";
 				StateMachine.aimDirection = 6;
 				StateMachine.direction = 4;
 			}
 			else{
 				west.SetActive(true);
+				
 				playerDirection = "west";
 				StateMachine.aimDirection = 4;
 				StateMachine.direction = 3;
@@ -357,18 +451,21 @@ function Update ()
 			disableAllStates();
 			if ((U==1)&&(R==1)){
 				northEast.SetActive(true);
+				
 				playerDirection = "northEast";
 				StateMachine.aimDirection = 14;
 				StateMachine.direction = 8;
 			}
 			else if ((D==1)&&(R==1)){
 			southEast.SetActive(true);
+			
 			playerDirection = "southEast";
 			StateMachine.aimDirection = 10;
 			StateMachine.direction = 6;
 			}
 			else{
 				east.SetActive(true);
+				
 				playerDirection = "east";
 				StateMachine.aimDirection = 12;
 				StateMachine.direction = 7;
@@ -501,19 +598,19 @@ function Update ()
 
 function disableAllStates(){
 	if (kPressed < 2){
-		east.SetActive(false);
-		south.SetActive(false);
-		north.SetActive(false);
-		west.SetActive(false);
+		eastW.SetActive(false);
+		southW.SetActive(false);
+		northW.SetActive(false);
+		westW.SetActive(false);
 		eastStand.SetActive(false);
 		westStand.SetActive(false);
 		northStand.SetActive(false);
 		southStand.SetActive(false);
 		
-		northEast.SetActive(false);
-		northWest.SetActive(false);
-		southEast.SetActive(false);
-		southWest.SetActive(false);
+		northEastW.SetActive(false);
+		northWestW.SetActive(false);
+		southEastW.SetActive(false);
+		southWestW.SetActive(false);
 		
 		gunWest.SetActive(false);
 		
@@ -521,6 +618,17 @@ function disableAllStates(){
 		northWestStand.SetActive(false);
 		southEastStand.SetActive(false);
 		southWestStand.SetActive(false);
+		
+		
+		eastRun.SetActive(false);
+		westRun.SetActive(false);
+		northRun.SetActive(false);
+		southRun.SetActive(false);
+		northEastRun.SetActive(false);
+		northWestRun.SetActive(false);
+		southEastRun.SetActive(false);
+		southWestRun.SetActive(false);
+		
 	}
 
 }

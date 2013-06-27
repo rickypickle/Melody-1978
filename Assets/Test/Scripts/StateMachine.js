@@ -8,6 +8,8 @@ static var ammo = 100;
 
 static var aimDirection = 12;
 
+static var Run: boolean = false;
+
 function Start () {
 
 }

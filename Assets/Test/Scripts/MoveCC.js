@@ -18,7 +18,7 @@ function Update ()
 }
 */
 
-var speed : float = 6.0;
+static var speed : float = 6.0;
 var jumpSpeed : float = 8.0;
 var gravity : float = 20.0;
 
@@ -26,6 +26,8 @@ private var moveDirection : Vector3 = Vector3.zero;
 
 function Update() {
     var controller : CharacterController = GetComponent(CharacterController);
+    
+    
     if ((!SimpleMove.Gpressed)&&(!StateMachine.using)){ //if we're aiming we won't move
     if (controller.isGrounded) {
         // We are grounded, so recalculate
@@ -40,6 +42,8 @@ function Update() {
 	        moveDirection *= speed;
 	        
 	        //Debug.Log(moveDirection+" third");
+	        
+	        
 	        
 	        if (Input.GetButton ("Jump")) {
 	            moveDirection.y = jumpSpeed;
