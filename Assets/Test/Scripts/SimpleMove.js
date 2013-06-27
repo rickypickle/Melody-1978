@@ -3,6 +3,9 @@
 var speed = 1.0;
 var Character : GameObject;
 
+var walkSpeed : int = 1;
+var runSpeed : int = 1;
+
 var east : GameObject;
 var west : GameObject;
 var north : GameObject;
@@ -97,6 +100,8 @@ eastStand.SetActive(true);
 var keyCount : int = 0;
 var keyPressed : String = "";
 var kPressed : int = 0;
+
+MoveCC.speed = walkSpeed;
 
 var U = 0;
 var L = 0;
@@ -263,14 +268,14 @@ function Update ()
 		        	
 		        		changeRun();
 		        	
-		        	MoveCC.speed = MoveCC.speed * 2;
+		        	MoveCC.speed = runSpeed;
 		        }
 		if (Input.GetKeyUp(KeyCode.LeftShift)){
 		        	StateMachine.Run = false;
 		        	
 		        		changeRun();
 		        	
-		        	MoveCC.speed = MoveCC.speed / 2;
+		        	MoveCC.speed = walkSpeed;
 		        }
 	
 	// SHOOTING
