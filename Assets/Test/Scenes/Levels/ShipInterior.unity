@@ -27,7 +27,7 @@ RenderSettings:
   m_SpotCookie: {fileID: 0}
   m_ObjectHideFlags: 0
 --- !u!127 &3
-GameManager:
+LevelGameManager:
   m_ObjectHideFlags: 0
 --- !u!157 &4
 LightmapSettings:
@@ -404,7 +404,7 @@ Transform:
   m_PrefabInternal: {fileID: 1049411435}
   m_GameObject: {fileID: 15051942}
   m_LocalRotation: {x: 0, y: .382683486, z: 0, w: .923879564}
-  m_LocalPosition: {x: 2.95667052, y: 1.73185158, z: 1.26907015}
+  m_LocalPosition: {x: 3.43061042, y: 1.73185158, z: .832972944}
   m_LocalScale: {x: .739355028, y: .739355028, z: .739355028}
   m_Children:
   - {fileID: 325858630}
@@ -437,6 +437,8 @@ MonoBehaviour:
   m_Name: 
   speed: 0
   Character: {fileID: 15051942}
+  walkSpeed: 3
+  runSpeed: 6
   east: {fileID: 747736876}
   west: {fileID: 1234794138}
   north: {fileID: 1371797276}
@@ -1494,6 +1496,8 @@ Mesh:
     localAABB:
       m_Center: {x: 3.125, y: 1.375, z: -.25}
       m_Extent: {x: 5.875, y: 1.875, z: .25}
+  m_Shapes: []
+  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -6124,7 +6128,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400076, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.95667052
+      value: 3.43061042
       objectReference: {fileID: 0}
     - target: {fileID: 400076, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -6132,7 +6136,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400076, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 1.26907015
+      value: .832972944
       objectReference: {fileID: 0}
     - target: {fileID: 400076, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6426,6 +6430,14 @@ Prefab:
       propertyPath: cc
       value: 
       objectReference: {fileID: 15051948}
+    - target: {fileID: 11400084, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: walkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400084, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
   m_RootGameObject: {fileID: 15051942}
@@ -6690,6 +6702,8 @@ Mesh:
     localAABB:
       m_Center: {x: 3.125, y: .5, z: -.875}
       m_Extent: {x: 5.875, y: 1, z: .875}
+  m_Shapes: []
+  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -7199,6 +7213,8 @@ Mesh:
     localAABB:
       m_Center: {x: 2.375, y: .25, z: .625}
       m_Extent: {x: 2.875, y: .25, z: 3.125}
+  m_Shapes: []
+  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -8617,6 +8633,8 @@ Mesh:
     localAABB:
       m_Center: {x: 4.75, y: .5, z: .625}
       m_Extent: {x: 5.25, y: 0, z: 3.125}
+  m_Shapes: []
+  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -10295,7 +10313,7 @@ MonoBehaviour:
   gridSnapSize_Factored: .25
   gridCenterPos: {x: -14.25, y: 5.75, z: -3.5}
   superUnitSize: 0a0000000a0000000a0000000c000000
-  camView: {x: .615843594, y: -.54718703, z: .566853523}
+  camView: {x: .771899819, y: -.445739776, z: .453306526}
   gridObjPos: {x: 0, y: 0, z: 0}
   nearestSnapPos: {x: -14.25, y: 5.75, z: -3.5}
   activePoint: {x: 3.25, y: 1.75, z: -.75}
