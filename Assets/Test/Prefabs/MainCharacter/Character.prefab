@@ -4962,6 +4962,8 @@ MonoBehaviour:
   m_Name: 
   speed: 0
   Character: {fileID: 100076}
+  walkSpeed: 3
+  runSpeed: 6
   east: {fileID: 100086}
   west: {fileID: 100132}
   north: {fileID: 100058}
