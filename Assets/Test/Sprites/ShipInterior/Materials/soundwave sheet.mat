@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: tvsheet2
+  m_Name: soundwave sheet
   m_Shader: {fileID: 10, guid: 0000000000000000e000000000000000, type: 0}
   m_ShaderKeywords: []
   m_SavedProperties:
@@ -16,7 +16,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: d0a0d57757eb2fd49af8e930793c8ef9, type: 3}
+          m_Texture: {fileID: 2800000, guid: 7fda1875754bb1e45bbee65537283c6d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -35,4 +35,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .0156862754, g: .305882365, b: 0, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}

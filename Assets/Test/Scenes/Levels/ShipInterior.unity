@@ -9361,6 +9361,73 @@ Transform:
   - {fileID: 45996312}
   - {fileID: 748421718}
   m_Father: {fileID: 15051943}
+--- !u!1 &1493790956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1493790959}
+  - 33: {fileID: 1493790958}
+  - 23: {fileID: 1493790957}
+  - 114: {fileID: 1493790960}
+  m_Layer: 8
+  m_Name: SoundWave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1493790957
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1493790956}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 9f9608dab8a333e4abe6a6381b9f9399, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!33 &1493790958
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1493790956}
+  m_Mesh: {fileID: 4300000, guid: a9f107b6556ba844abb7c4000a70b7f6, type: 2}
+--- !u!4 &1493790959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1493790956}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 2.79822421, y: 1.77990341, z: 3.52371454}
+  m_LocalScale: {x: .750532925, y: .787082136, z: .564444184}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &1493790960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1493790956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c584da7ef5c6546abbef343e194c16, type: 3}
+  m_Name: 
+  uvAnimationTileX: 3
+  uvAnimationTileY: 1
+  framesPerSecond: 10
 --- !u!1 &1497285357
 GameObject:
   m_ObjectHideFlags: 0
@@ -10311,11 +10378,11 @@ MonoBehaviour:
   gridSnapSize_Base: .25
   gridUnitsIndex: 0
   gridSnapSize_Factored: .25
-  gridCenterPos: {x: -14.25, y: 5.75, z: -3.5}
+  gridCenterPos: {x: -1, y: 3.75, z: 1.25}
   superUnitSize: 0a0000000a0000000a0000000c000000
-  camView: {x: .771899819, y: -.445739776, z: .453306526}
+  camView: {x: .832828999, y: -.231870323, z: .502625108}
   gridObjPos: {x: 0, y: 0, z: 0}
-  nearestSnapPos: {x: -14.25, y: 5.75, z: -3.5}
+  nearestSnapPos: {x: -1, y: 3.75, z: 1.25}
   activePoint: {x: 3.25, y: 1.75, z: -.75}
 --- !u!4 &1684714200
 Transform:
