@@ -1,0 +1,943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: HudFace
+  elements:
+  - name: PlayerCautious_1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerCautious_2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerCautious_3
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerCautious_4
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameGunArmed
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameGunLift
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameGunShooting
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_10
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_11
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_3
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_4
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_5
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_6
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_7
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_8
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerFrameRunning_9
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerInjured 1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .420410156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerInjured 2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerListening_1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerListening_2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerListening_3
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerListening_4
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerNormal_5
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerNormal_6
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_3
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_4
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .420410156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_5
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_6
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_7
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerOutOfBreath_8
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .807128906
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_10
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_11
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_12
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_3
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_4
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_5
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_6
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_7
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .678222656
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_8
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerScanning_9
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .742675781
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_1
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_10
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_11
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_12
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_2
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .7734375
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_3
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_4
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .38671875
+      y: .871582031
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_5
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .64453125
+      y: .936035156
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_6
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .2578125
+      y: .484863281
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_7
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .12890625
+      y: .613769531
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_8
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: .515625
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  - name: PlayerTalking_9
+    originalWidth: 131
+    originalHeight: 131
+    trimRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 131
+      height: 131
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .549316406
+      width: .127929688
+      height: .0639648438
+    rotated: 0
+  material: {fileID: 2100000, guid: 476b7aa726c5cc4458b2bd38646c9108, type: 2}
+  texture: {fileID: 2800000, guid: 7923be9f08f09344684897e525b677fb, type: 3}
