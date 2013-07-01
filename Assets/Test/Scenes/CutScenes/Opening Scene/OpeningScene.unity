@@ -74,6 +74,151 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &117422179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 117422181}
+  - 114: {fileID: 117422180}
+  m_Layer: 0
+  m_Name: _grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &117422180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 117422179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0742f166b14f3534981442b3dab9c371, type: 3}
+  m_Name: 
+  gridLineColor_XY: {r: .231343269, g: .709737659, b: 1, a: .0980392173}
+  gridLineColor_XZ: {r: .298507452, g: 1, b: .470201463, a: .0980392173}
+  gridLineColor_YZ: {r: 1, g: .320895493, b: .392130226, a: .137254909}
+  showGrid: 1
+  drawGrid_XZ: 0
+  drawGrid_XY: 0
+  drawGrid_YZ: 0
+  snapToGrid: 1
+  gridSnapSize_Base: .25
+  gridUnitsIndex: 0
+  gridSnapSize_Factored: .25
+  gridCenterPos: {x: .75, y: 1.25, z: -8.75}
+  superUnitSize: 0a0000000a0000000a0000000c000000
+  camView: {x: -.45925197, y: -.220181614, z: .86058569}
+  gridObjPos: {x: 0, y: 0, z: 0}
+  nearestSnapPos: {x: .75, y: 1.25, z: -8.75}
+  activePoint: {x: -7.75, y: 7.75, z: -12.25}
+--- !u!4 &117422181
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 117422179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &124055002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 124055003}
+  - 23: {fileID: 124055006}
+  - 33: {fileID: 124055005}
+  - 114: {fileID: 124055004}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124055003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124055002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.75, y: 7.75, z: -12.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &124055004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124055002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -640569473, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: 
+  camera_: {fileID: 900257426}
+  anchor_: 4
+  offset_: {x: 0, y: 0}
+  clippingPlane: {fileID: 0}
+  boundingRect_:
+    serializedVersion: 2
+    x: -116
+    y: -25
+    width: 232
+    height: 50
+  scale_: {x: 1, y: 1}
+  shear_: {x: 0, y: 0}
+  fontInfo_: {fileID: 0}
+  text_: Hello World!
+  useMultiline_: 0
+  textAlign_: 0
+  useKerning_: 0
+  tracking_: 0
+  lineSpacing_: 0
+  topColor_: {r: 1, g: 1, b: 1, a: 1}
+  botColor_: {r: 1, g: 1, b: 1, a: 1}
+  useOutline_: 0
+  outlineWidth_: 1
+  outlineColor_: {r: 0, g: 0, b: 0, a: 1}
+  useShadow_: 0
+  shadowBias_: {x: 1, y: -1}
+  shadowColor_: {r: 0, g: 0, b: 0, a: 1}
+--- !u!33 &124055005
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124055002}
+  m_Mesh: {fileID: 0}
+--- !u!23 &124055006
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124055002}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
 --- !u!1 &656988090
 GameObject:
   m_ObjectHideFlags: 0

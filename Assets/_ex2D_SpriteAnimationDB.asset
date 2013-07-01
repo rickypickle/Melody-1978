@@ -19,6 +19,8 @@ MonoBehaviour:
   - 74c8c270143cd2545a7912dbfb126dae
   - 40e0ca25e455b5f4886e88335565f159
   - 8790f79aa5caae3408748d24c187905f
+  - d42a9e7795d894149b3743a6d10420ed
+  - 1999d2bb8f3dd694c83daf69dcd4a944
   guidInfos:
   - guidAnimClip: 4f50b4f225f15b6498891a59dfa8d2ec
     guidTexture: dce824ac1e207dd43b34c1f02240042d
@@ -106,5 +108,37 @@ MonoBehaviour:
     guidTexture: 9464e701baa175d4a8cde0603269d62f
   - guidAnimClip: 8790f79aa5caae3408748d24c187905f
     guidTexture: 95b32b196397b3c4caf8b15995e49464
+  - guidAnimClip: d42a9e7795d894149b3743a6d10420ed
+    guidTexture: dd4f227dbc5ac70438726775ec06e7e4
+  - guidAnimClip: d42a9e7795d894149b3743a6d10420ed
+    guidTexture: af16c0d46f343d74c9f80465f667da86
+  - guidAnimClip: d42a9e7795d894149b3743a6d10420ed
+    guidTexture: 5bebc9955eae3e443bd00b6db0b790dd
+  - guidAnimClip: d42a9e7795d894149b3743a6d10420ed
+    guidTexture: c0294a2b62ebbaa46b5e77116ea665cc
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 5e0a1c6a94a59a24eb564982c024459a
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 648b6c51b09295e4183a1dbf9fbfb6da
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: a6221c7df19c46c42ba11dcb1738f249
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 6784969595c1e7d4e8b5148c62aebf4b
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 07a0624bdefff9441b894a4d64b0f5e5
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 81b91e0aa14f5674d924ce89d3702a4a
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: ca9880ce729a3654a9a6d62642ea200a
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 03f980d0dcbcb664cb5114f4fef191ae
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 9feea991bdc3a5c42b8bc305d383be8c
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 89c7ab4d124cbf44b978ade65e7e4065
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 67a690a8a9365a64bad53b47eb6c3f1e
+  - guidAnimClip: 1999d2bb8f3dd694c83daf69dcd4a944
+    guidTexture: 26e65499ab648924e9aaf2d51fa06aad
   showData: 1
   showTable: 1

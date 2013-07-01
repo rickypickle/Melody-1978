@@ -64,9 +64,9 @@ MonoBehaviour:
     atlas: {fileID: 11400000, guid: 0547df4b834667d448f52b9a86b6e3d1, type: 2}
     index: 37
   eventInfos: []
-  speed: 1
+  speed: 1.5
   editorPreviewSize: 256
   editorScale: .235000595
   editorOffset: 0
-  editorSpeed: 1
+  editorSpeed: 1.5
   editorNeedRebuild: 0
