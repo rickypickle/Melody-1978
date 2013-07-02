@@ -12,21 +12,17 @@ MonoBehaviour:
   m_Name: GunEast
   wrapMode: 1
   stopAction: 0
-  length: .5
+  length: .333333343
   sampleRate_: 60
   frameInfos:
-  - textureGUID: 9adbe3fcf54a148439b81928e41ffbe8
+  - textureGUID: 1c38fca64aa51734f94c0439df484b7f
     length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 33
-  - textureGUID: cf74ffca73133a14790134ca34e9f18e
+    atlas: {fileID: 11400000, guid: d8c5050b493ddfd488a7ddf19f699e24, type: 2}
+    index: 8
+  - textureGUID: 89ed387eb2fb0bd458620998bf837471
     length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 34
-  - textureGUID: fa55a55add2afca409e5fe544988fda5
-    length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 7
+    atlas: {fileID: 11400000, guid: d8c5050b493ddfd488a7ddf19f699e24, type: 2}
+    index: 9
   eventInfos: []
   speed: 2
   editorPreviewSize: 256

@@ -14,6 +14,8 @@ MonoBehaviour:
   atlasInfoGUIDs:
   - 8ab716c53b6df254fbda0502f0b1ee9d
   - 0b5a74af5a0d2c047be80b5cd78b91de
+  - 8ff69084375758e4697dfa238a47f769
+  - 72984e53a0822c648a5be270239e4ecf
   elementInfos:
   - indexInAtlas: 0
     indexInAtlasInfo: 0
@@ -385,5 +387,165 @@ MonoBehaviour:
     guidTexture: 9feea991bdc3a5c42b8bc305d383be8c
     guidAtlas: b33a188cd2ee6b5429ee8813fa313c68
     guidAtlasInfo: 0b5a74af5a0d2c047be80b5cd78b91de
+  - indexInAtlas: 0
+    indexInAtlasInfo: 0
+    guidTexture: 27a6e8194fa8ef04db198d3604560d9c
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 1
+    indexInAtlasInfo: 1
+    guidTexture: 42a5dd386b03cfe4cb20ca9147616d5b
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 2
+    indexInAtlasInfo: 2
+    guidTexture: 2ffae90010de4e74b8ac87ae18f00435
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 3
+    indexInAtlasInfo: 3
+    guidTexture: 08deb88793f167145a65c2a86c40744d
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 4
+    indexInAtlasInfo: 4
+    guidTexture: 1675721cca8659c4ea779727d9b8bca0
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 5
+    indexInAtlasInfo: 5
+    guidTexture: 700613cf64b25464f9c802264f6466e8
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 6
+    indexInAtlasInfo: 6
+    guidTexture: 669d8d90896a7834a8d7f94a76f32af1
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 7
+    indexInAtlasInfo: 7
+    guidTexture: 4c35c28c321a44140b4da92db06d7df4
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 8
+    indexInAtlasInfo: 8
+    guidTexture: 26d4a9b860db0644c8634ee1d41aff12
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 9
+    indexInAtlasInfo: 9
+    guidTexture: 37f74be166ba422439583f4f9dcae73b
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 10
+    indexInAtlasInfo: 10
+    guidTexture: 56ae44e59bb88644ab8873ec20e170b4
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 11
+    indexInAtlasInfo: 11
+    guidTexture: 5e91c723f8f633a448a3da590224ef7f
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 12
+    indexInAtlasInfo: 12
+    guidTexture: fdb4705e4df15d24fad97659ecb2096c
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 13
+    indexInAtlasInfo: 13
+    guidTexture: 9929236c5908a7349b7e29c3bb8f51fa
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 14
+    indexInAtlasInfo: 14
+    guidTexture: 3c974533f09c235428ed187ce16cfe8b
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 15
+    indexInAtlasInfo: 15
+    guidTexture: 49b0d58fdde74bc4ba982cebb534d306
+    guidAtlas: 3821ed4273a73bf47b5c9ca0ee30669d
+    guidAtlasInfo: 8ff69084375758e4697dfa238a47f769
+  - indexInAtlas: 0
+    indexInAtlasInfo: 0
+    guidTexture: 97db4fdea8cbad44b965e3a77c3aed2a
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 1
+    indexInAtlasInfo: 1
+    guidTexture: 549b498545c553947ba4e049c27f3d70
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 2
+    indexInAtlasInfo: 2
+    guidTexture: 8ea9cc01c07dd1f4f8898b55d74dc3c9
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 3
+    indexInAtlasInfo: 3
+    guidTexture: a8509d89a75f1e24ca084c2f56e5218a
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 4
+    indexInAtlasInfo: 4
+    guidTexture: 4c174db056f6f2d4283d74e4b2010aaf
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 5
+    indexInAtlasInfo: 5
+    guidTexture: 2d3f6614793d33046a705bd0c05fa69a
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 6
+    indexInAtlasInfo: 6
+    guidTexture: f1d64d0f6b31c9c4886690343dab35a1
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 7
+    indexInAtlasInfo: 7
+    guidTexture: 47768c7e339f3f945b32b5d76da6c3ba
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 8
+    indexInAtlasInfo: 8
+    guidTexture: 1c38fca64aa51734f94c0439df484b7f
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 9
+    indexInAtlasInfo: 9
+    guidTexture: 89ed387eb2fb0bd458620998bf837471
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 10
+    indexInAtlasInfo: 10
+    guidTexture: d44850e3818c3664eb661a411dc0316b
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 11
+    indexInAtlasInfo: 11
+    guidTexture: 3daf8c9964bfe5a4f96b22b5a00e608f
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 12
+    indexInAtlasInfo: 12
+    guidTexture: 3fc232de61e4d8f409219aa4388a4246
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 13
+    indexInAtlasInfo: 13
+    guidTexture: b07b3e08db965154480b0aece2e15682
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 14
+    indexInAtlasInfo: 14
+    guidTexture: 19630de7f0344d740b99b5f6e44944a1
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
+  - indexInAtlas: 15
+    indexInAtlasInfo: 15
+    guidTexture: ed0d0e27005fdfe4fa4c1a47d34bbc18
+    guidAtlas: d8c5050b493ddfd488a7ddf19f699e24
+    guidAtlasInfo: 72984e53a0822c648a5be270239e4ecf
   showData: 1
   showTable: 1

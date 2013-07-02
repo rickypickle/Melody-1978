@@ -10,11 +10,19 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 49051723, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
   m_Name: scanNorth
-  wrapMode: 1
+  wrapMode: 2
   stopAction: 0
-  length: 0
+  length: .333333343
   sampleRate_: 60
-  frameInfos: []
+  frameInfos:
+  - textureGUID: 49b0d58fdde74bc4ba982cebb534d306
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 3821ed4273a73bf47b5c9ca0ee30669d, type: 2}
+    index: 15
+  - textureGUID: 3c974533f09c235428ed187ce16cfe8b
+    length: .166666672
+    atlas: {fileID: 11400000, guid: 3821ed4273a73bf47b5c9ca0ee30669d, type: 2}
+    index: 14
   eventInfos: []
   speed: 1
   editorPreviewSize: 256

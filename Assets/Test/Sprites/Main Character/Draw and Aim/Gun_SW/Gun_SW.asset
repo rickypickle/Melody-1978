@@ -12,21 +12,17 @@ MonoBehaviour:
   m_Name: Gun_SW
   wrapMode: 1
   stopAction: 0
-  length: .5
+  length: .333333343
   sampleRate_: 60
   frameInfos:
-  - textureGUID: 48a3485cfcbab0a49a90e1e61db3bb51
+  - textureGUID: 8ea9cc01c07dd1f4f8898b55d74dc3c9
     length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 23
-  - textureGUID: 364055bbe768f4d4b8768e77c542094c
+    atlas: {fileID: 11400000, guid: d8c5050b493ddfd488a7ddf19f699e24, type: 2}
+    index: 2
+  - textureGUID: a8509d89a75f1e24ca084c2f56e5218a
     length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 24
-  - textureGUID: 9e9abecbfa7d1924cbf99e85cbf71c56
-    length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 19
+    atlas: {fileID: 11400000, guid: d8c5050b493ddfd488a7ddf19f699e24, type: 2}
+    index: 3
   eventInfos: []
   speed: 2
   editorPreviewSize: 256

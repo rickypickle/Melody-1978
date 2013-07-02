@@ -12,21 +12,17 @@ MonoBehaviour:
   m_Name: Gun_South
   wrapMode: 1
   stopAction: 0
-  length: .5
+  length: .333333343
   sampleRate_: 60
   frameInfos:
-  - textureGUID: 853d6a642bd621d46aa1d1da4cfe8e35
+  - textureGUID: 97db4fdea8cbad44b965e3a77c3aed2a
     length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 27
-  - textureGUID: f0959d66a840e4e4fb8d36cb60e831e1
+    atlas: {fileID: 11400000, guid: d8c5050b493ddfd488a7ddf19f699e24, type: 2}
+    index: 0
+  - textureGUID: 549b498545c553947ba4e049c27f3d70
     length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 28
-  - textureGUID: a0cd514472c3c03479a8914fdb96f406
-    length: .166666672
-    atlas: {fileID: 11400000, guid: 26845f19fe7160d4f9db3463d9b3865b, type: 2}
-    index: 21
+    atlas: {fileID: 11400000, guid: d8c5050b493ddfd488a7ddf19f699e24, type: 2}
+    index: 1
   eventInfos: []
   speed: 2
   editorPreviewSize: 256
