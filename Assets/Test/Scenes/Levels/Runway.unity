@@ -27,7 +27,7 @@ RenderSettings:
   m_SpotCookie: {fileID: 0}
   m_ObjectHideFlags: 0
 --- !u!127 &3
-LevelGameManager:
+GameManager:
   m_ObjectHideFlags: 0
 --- !u!157 &4
 LightmapSettings:
@@ -3440,8 +3440,6 @@ Mesh:
     localAABB:
       m_Center: {x: 8.625, y: 4.25, z: 6.5}
       m_Extent: {x: 4.125, y: 0, z: .25}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -4399,8 +4397,6 @@ Mesh:
     localAABB:
       m_Center: {x: 12.25, y: 8.5, z: 6.5}
       m_Extent: {x: 15.75, y: 0, z: 3}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -6454,8 +6450,6 @@ Mesh:
     localAABB:
       m_Center: {x: 10.875, y: 4.25, z: 6.5}
       m_Extent: {x: 6.375, y: 0, z: .25}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -8762,8 +8756,6 @@ Mesh:
     localAABB:
       m_Center: {x: 0, y: -.375, z: -26.875}
       m_Extent: {x: .5, y: .125, z: 3.125}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -11034,8 +11026,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.25, y: 4.25, z: 1.625}
       m_Extent: {x: .25, y: 0, z: 2.125}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -15921,8 +15911,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.25, y: 4.25, z: 6.375}
       m_Extent: {x: .25, y: 0, z: 2.875}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -22262,8 +22250,6 @@ Mesh:
     localAABB:
       m_Center: {x: 4.375, y: 10.875, z: 5.125}
       m_Extent: {x: 4.875, y: 11.375, z: 5.625}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -22762,8 +22748,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.124998987, y: -.375, z: 8.62500095}
       m_Extent: {x: .625000656, y: .125, z: 4.87500095}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -24665,8 +24649,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.25, y: 4, z: -.375}
       m_Extent: {x: .25, y: 0, z: 6.625}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -25541,8 +25523,6 @@ Mesh:
     localAABB:
       m_Center: {x: 10.875, y: 4.25, z: 6.5}
       m_Extent: {x: 6.375, y: 0, z: .25}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -27732,7 +27712,7 @@ MonoBehaviour:
   gridSnapSize_Factored: .25
   gridCenterPos: {x: 117.25, y: 21.5, z: 7}
   superUnitSize: 0a0000000a0000000a0000000c000000
-  camView: {x: .58589375, y: -.515676558, z: .625145078}
+  camView: {x: .92353195, y: -.202588081, z: .325648427}
   gridObjPos: {x: 0, y: 0, z: 0}
   nearestSnapPos: {x: 117.25, y: 21.5, z: 7}
   activePoint: {x: 124.75, y: 5.25, z: -22.75}
@@ -28299,8 +28279,6 @@ Mesh:
     localAABB:
       m_Center: {x: .125, y: -.25, z: -9.25}
       m_Extent: {x: .375, y: 0, z: 22.25}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -30150,8 +30128,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.124999046, y: -.375, z: 8.25000095}
       m_Extent: {x: .625000596, y: .125, z: 4.50000095}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -33704,8 +33680,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.124999046, y: -.375, z: 8.25000095}
       m_Extent: {x: .625000596, y: .125, z: 4.50000095}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -36255,8 +36229,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.25, y: 4, z: 1.7221756}
       m_Extent: {x: .25, y: 0, z: 7.7778244}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -45561,8 +45533,6 @@ Mesh:
     localAABB:
       m_Center: {x: 4.75, y: 4.25, z: 9.5}
       m_Extent: {x: .25, y: 0, z: 3.25}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
@@ -46548,8 +46518,6 @@ Mesh:
     localAABB:
       m_Center: {x: -.25, y: 4, z: 9.625}
       m_Extent: {x: .25, y: 0, z: 2.875}
-  m_Shapes: []
-  m_ShapeVertices: []
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
