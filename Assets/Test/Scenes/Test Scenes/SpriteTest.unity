@@ -400,7 +400,7 @@ GameObject:
   - 114: {fileID: 1770146511}
   m_Layer: 8
   m_Name: south
-  m_TagString: South
+  m_TagString: SouthRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -845,7 +845,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 226865061}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -890,7 +890,7 @@ GameObject:
   - 114: {fileID: 242369594}
   m_Layer: 8
   m_Name: walkSouthWest
-  m_TagString: Untagged
+  m_TagString: southWest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -952,7 +952,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 242369593}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -2628,7 +2628,7 @@ GameObject:
   - 114: {fileID: 539787276}
   m_Layer: 8
   m_Name: southEast
-  m_TagString: southEast
+  m_TagString: SouthEastRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2717,7 +2717,7 @@ GameObject:
   - 114: {fileID: 1948627017}
   m_Layer: 8
   m_Name: northWest
-  m_TagString: northWest
+  m_TagString: NorthWestRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3021,7 +3021,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 507267066}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -4046,7 +4046,7 @@ GameObject:
   - 114: {fileID: 333582999}
   m_Layer: 8
   m_Name: northEast
-  m_TagString: northEast
+  m_TagString: NorthEastRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4349,7 +4349,7 @@ GameObject:
   - 114: {fileID: 676858771}
   m_Layer: 8
   m_Name: walkNorththWest
-  m_TagString: Untagged
+  m_TagString: northWest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4411,7 +4411,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 676858770}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -4652,7 +4652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &689952443
 Transform:
   m_ObjectHideFlags: 0
@@ -5095,7 +5095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d268e50c5f08d1c4b856752cb26ed002, type: 3}
   m_Name: 
   cc: {fileID: 0}
-  speed: 8
   jumpSpeed: 0
   gravity: 12
 --- !u!114 &738529159
@@ -5417,6 +5416,8 @@ MonoBehaviour:
   m_Name: 
   speed: 0
   Character: {fileID: 1097753929}
+  walkSpeed: -1
+  runSpeed: 5
   east: {fileID: 1280591535}
   west: {fileID: 2039391852}
   north: {fileID: 777074895}
@@ -5425,10 +5426,26 @@ MonoBehaviour:
   northWest: {fileID: 490162493}
   southEast: {fileID: 474717860}
   southWest: {fileID: 1159342790}
+  eastW: {fileID: 0}
+  westW: {fileID: 0}
+  northW: {fileID: 0}
+  southW: {fileID: 0}
+  northEastW: {fileID: 0}
+  northWestW: {fileID: 0}
+  southEastW: {fileID: 0}
+  southWestW: {fileID: 0}
   eastStand: {fileID: 349302055}
   westStand: {fileID: 268175796}
   northStand: {fileID: 1728739446}
   southStand: {fileID: 1252302721}
+  eastRun: {fileID: 0}
+  westRun: {fileID: 0}
+  northRun: {fileID: 0}
+  southRun: {fileID: 0}
+  northEastRun: {fileID: 0}
+  northWestRun: {fileID: 0}
+  southEastRun: {fileID: 0}
+  southWestRun: {fileID: 0}
   northEastStand: {fileID: 1728739446}
   northWestStand: {fileID: 1780913586}
   southEastStand: {fileID: 42911882}
@@ -5437,18 +5454,6 @@ MonoBehaviour:
   gunEast: {fileID: 855054611}
   gunSouth: {fileID: 1498749117}
   gunNorth: {fileID: 1628831403}
-  eastAnim: {fileID: 1060406804}
-  westAnim: {fileID: 2039391853}
-  southAnim: {fileID: 1770146511}
-  northAnim: {fileID: 349302056}
-  northEastAnim: {fileID: 333582999}
-  norhtWestAnim: {fileID: 1948627017}
-  southEastAnim: {fileID: 539787276}
-  southWestAnim: {fileID: 770208829}
-  eastIdle: {fileID: 490162494}
-  westIdle: {fileID: 508417987}
-  southIdle: {fileID: 855054614}
-  northIdle: {fileID: 735844548}
   keyCount: 0
   keyPressed: 
   kPressed: 0
@@ -5522,7 +5527,7 @@ GameObject:
   - 114: {fileID: 349302056}
   m_Layer: 8
   m_Name: north
-  m_TagString: North
+  m_TagString: NorthRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5860,6 +5865,122 @@ Prefab:
     - target: {fileID: 3300098, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: EastRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: NorthRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: NorthEastRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: NorthWestRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: SouthRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: SouthEastRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: SouthWestRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100104, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_TagString
+      value: WestRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300016, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300018, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300032, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300046, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300060, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300066, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300096, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400066, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300020, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300054, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300056, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300062, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300084, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300094, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300098, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100108, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400072, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: walkSpeed
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400072, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
+      propertyPath: runSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cb34ae4443c017469239b079960ac9d, type: 2}
@@ -6855,7 +6976,7 @@ GameObject:
   - 114: {fileID: 957397037}
   m_Layer: 8
   m_Name: walkSouthEast
-  m_TagString: Untagged
+  m_TagString: southEast
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6928,7 +7049,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957397035}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -7679,7 +7800,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 1023297920}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -7859,7 +7980,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 1060406803}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -8062,7 +8183,7 @@ GameObject:
   - 114: {fileID: 1081894394}
   m_Layer: 8
   m_Name: walkWest
-  m_TagString: Untagged
+  m_TagString: West
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8135,7 +8256,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1081894392}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -8312,7 +8433,7 @@ GameObject:
   - 114: {fileID: 770208829}
   m_Layer: 8
   m_Name: southWest
-  m_TagString: southWest
+  m_TagString: SouthWestRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8712,7 +8833,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 1196743503}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -9180,7 +9301,7 @@ GameObject:
   - 114: {fileID: 1060406804}
   m_Layer: 8
   m_Name: east
-  m_TagString: East
+  m_TagString: EastRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9292,7 +9413,7 @@ GameObject:
   - 114: {fileID: 1319584580}
   m_Layer: 8
   m_Name: walkNorth
-  m_TagString: Untagged
+  m_TagString: North
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9354,7 +9475,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1319584579}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -10637,7 +10758,7 @@ GameObject:
   - 114: {fileID: 1595607102}
   m_Layer: 8
   m_Name: walkNorththEast
-  m_TagString: Untagged
+  m_TagString: northEast
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10710,7 +10831,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595607100}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -11569,7 +11690,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 1770146509}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -12227,7 +12348,7 @@ GameObject:
   - 114: {fileID: 1865447771}
   m_Layer: 8
   m_Name: walkSouth
-  m_TagString: Untagged
+  m_TagString: South
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12300,7 +12421,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1865447769}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -12545,7 +12666,7 @@ GameObject:
   - 114: {fileID: 1946475872}
   m_Layer: 8
   m_Name: walkEast
-  m_TagString: Untagged
+  m_TagString: East
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12607,7 +12728,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1946475871}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -12981,7 +13102,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 1986212987}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -13316,7 +13437,7 @@ GameObject:
   - 114: {fileID: 2039391853}
   m_Layer: 8
   m_Name: West
-  m_TagString: West
+  m_TagString: WestRun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13612,7 +13733,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 788935982}
   m_GameObject: {fileID: 2067147075}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -13887,7 +14008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2091134301
 Transform:
   m_ObjectHideFlags: 0
