@@ -7,7 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Flames
-  m_Shader: {fileID: 30, guid: 0000000000000000e000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: c6a819295e0c449459fad685618180c8, type: 3}
+  m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -15,7 +16,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 2a48724f215b44b4bb5cf003efa055a4, type: 3}
+          m_Texture: {fileID: 2800000, guid: e723cea6574b63e40a176205bb53de83, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: .5, y: 0}
     m_Floats: {}

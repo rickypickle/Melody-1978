@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 3}
+  m_Name: GunArm
+  elements:
+  - name: ArmDownCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 101
+      y: 58
+      width: 63
+      height: 169
+    coords:
+      serializedVersion: 2
+      x: .202148438
+      y: .30078125
+      width: .0615234375
+      height: .330078125
+    rotated: 0
+  - name: ArmDownCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 101
+      y: 58
+      width: 63
+      height: 167
+    coords:
+      serializedVersion: 2
+      x: .264648438
+      y: .3046875
+      width: .0615234375
+      height: .326171875
+    rotated: 0
+  - name: ArmDownLeftCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 51
+      width: 63
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .29296875
+      width: .0615234375
+      height: .337890625
+    rotated: 0
+  - name: ArmDownLeftCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 72
+      y: 51
+      width: 78
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .877929688
+      y: .662109375
+      width: .076171875
+      height: .337890625
+    rotated: 0
+  - name: ArmDownRightCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 108
+      y: 51
+      width: 63
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .0625
+      y: .29296875
+      width: .0615234375
+      height: .337890625
+    rotated: 0
+  - name: ArmDownRightCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 106
+      y: 51
+      width: 78
+      height: 173
+    coords:
+      serializedVersion: 2
+      x: .125
+      y: .29296875
+      width: .076171875
+      height: .337890625
+    rotated: 0
+  - name: ArmLeftCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 85
+      y: 48
+      width: 68
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .541992188
+      y: .65625
+      width: .06640625
+      height: .34375
+    rotated: 0
+  - name: ArmLeftCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 50
+      y: 48
+      width: 102
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .709960938
+      y: .65625
+      width: .099609375
+      height: .34375
+    rotated: 0
+  - name: ArmRightCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 103
+      y: 48
+      width: 68
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .810546875
+      y: .65625
+      width: .06640625
+      height: .34375
+    rotated: 0
+  - name: ArmRightCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 104
+      y: 48
+      width: 102
+      height: 176
+    coords:
+      serializedVersion: 2
+      x: .609375
+      y: .65625
+      width: .099609375
+      height: .34375
+    rotated: 0
+  - name: ArmUpCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 89
+      y: 43
+      width: 75
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .174804688
+      y: .65234375
+      width: .0732421875
+      height: .34765625
+    rotated: 0
+  - name: ArmUpCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 88
+      y: 33
+      width: 76
+      height: 188
+    coords:
+      serializedVersion: 2
+      x: 0
+      y: .6328125
+      width: .07421875
+      height: .3671875
+    rotated: 0
+  - name: ArmUpLeftCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 68
+      y: 41
+      width: 98
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .348632812
+      y: .65234375
+      width: .095703125
+      height: .34765625
+    rotated: 0
+  - name: ArmUpLeftCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 65
+      y: 41
+      width: 101
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .249023438
+      y: .65234375
+      width: .0986328125
+      height: .34765625
+    rotated: 0
+  - name: ArmUpRightCompleteSequenceMiddle
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 41
+      width: 98
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .4453125
+      y: .65234375
+      width: .095703125
+      height: .34765625
+    rotated: 0
+  - name: ArmUpRightCompleteSequenceMiddle2
+    originalWidth: 256
+    originalHeight: 256
+    trimRect:
+      serializedVersion: 2
+      x: 90
+      y: 41
+      width: 101
+      height: 178
+    coords:
+      serializedVersion: 2
+      x: .0751953125
+      y: .65234375
+      width: .0986328125
+      height: .34765625
+    rotated: 0
+  material: {fileID: 2100000, guid: cf13cdc293f6a4f46b6049d4cd02926d, type: 2}
+  texture: {fileID: 2800000, guid: 3a78aa11f6026d441ac8f895c9a3d7ca, type: 3}
